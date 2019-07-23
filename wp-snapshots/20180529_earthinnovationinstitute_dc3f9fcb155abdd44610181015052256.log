@@ -1,0 +1,81 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: October 15, 2018 5:23 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.38
+WORDPRESS:	4.9.8
+PHP INFO:	5.6.27 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (256M default) 
+MEMORY STACK: 87.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: mysqldump: [Warning] Using a password on the command line interface can be insecure.
+ 
+TABLES: total:44 | filtered:0 | create:44 
+SQL CREATED: 20180529_earthinnovationinstitute_dc3f9fcb155abdd44610181015052256_database.sql 
+SQL FILE SIZE: 22.18MB (23253927) 
+SQL FILE TIME: 2018-10-15 05:23:28 
+SQL RUNTIME: 2.30 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/earthin7/public_html 
+ARCHIVE FILE: 20180529_earthinnovationinstitute_dc3f9fcb155abdd44610181015052256_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	0B 
+STATS:	Dirs 0 | Files 0 
+SQL ADDED: 20180529_earthinnovationinstitute_dc3f9fcb155abdd44610181015052256_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/earthin7/public_html/wp-snapshots/tmp/20180529_earthinnovationinstitute_dc3f9fcb155abdd44610181015052256_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 3.93MB 
+ARCHIVE RUNTIME: 2.57 sec. 
+MEMORY STACK: 87.25MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/home/earthin7/public_html/wp-snapshots/tmp/20180529_earthinnovationinstitute_dc3f9fcb155abdd44610181015052256_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 22.18MB 
+Installer File: 445.92KB 
+Archive File: 3.93MB  
+
+********************************************************************************
+RECORD ID:[4]
+TOTAL PROCESS RUNTIME: 5.17 sec.
+PEAK PHP MEMORY USED: 89.75MB
+DONE PROCESSING => 20180529_earthinnovationinstitute October 15, 2018 5:23 am
+ 
