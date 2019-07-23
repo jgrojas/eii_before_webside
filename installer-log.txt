@@ -1,0 +1,225 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.38
+* STEP-1 START @ 09:19:10
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.6.35 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.33 (Win64) PHP/5.6.35
+DOC ROOT:	C:/wamp64/www/eii_before_webside
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/eii_before_webside/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20180529_earthinnovationinstitute_b0ff10c39577e8215042181101211441_archive.zip
+SIZE:	4.02MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2
+    [filename] => C:\wamp64\www\eii_before_webside\20180529_earthinnovationinstitute_b0ff10c39577e8215042181101211441_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-11-01 21:19:10
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.181101211910.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 09:19:10 - RUNTIME: 0.1434 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 09:19:44
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.21 -- Build Server: 5.7.24
+FILE SIZE:	database.sql (22.27MB) - installer-data.sql (22.27MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/eii_before_webside/installer-data.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** Query size limit [length=1185769] [sql=INSERT INTO `wp_options` VALUES (5412,'chimpexpress-errors','a:13131:{i:0;a...]
+ERRORS FOUND:	1
+TABLES DROPPED:	30
+QUERIES RAN:	419
+
+wp_cntctfrm_field: (13)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (6)
+wp_eo_events: (38)
+wp_eo_venuemeta: (67)
+wp_facetwp_index: (850)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (64)
+wp_icl_languages: (64)
+wp_icl_languages_translations: (4096)
+wp_icl_locale_map: (5)
+wp_icl_message_status: (0)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_packages: (0)
+wp_icl_string_pages: (41585)
+wp_icl_string_positions: (304)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (254)
+wp_icl_string_urls: (182)
+wp_icl_strings: (9996)
+wp_icl_translate: (2329)
+wp_icl_translate_job: (341)
+wp_icl_translation_batches: (75)
+wp_icl_translation_status: (304)
+wp_icl_translations: (1327)
+wp_links: (0)
+wp_options: (511)
+wp_postmeta: (11940)
+wp_posts: (2914)
+wp_smush_dir_images: (0)
+wp_swp_cf: (4521)
+wp_swp_index: (73848)
+wp_swp_log: (25143)
+wp_swp_tax: (1429)
+wp_swp_terms: (16693)
+wp_term_relationships: (1526)
+wp_term_taxonomy: (185)
+wp_termmeta: (0)
+wp_terms: (185)
+wp_usermeta: (640)
+wp_users: (25)
+
+Removed '49' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 2.9355 sec.
+STEP-2 COMPLETE @ 09:19:47 - RUNTIME: 3.1312 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 09:20:15
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_cntctfrm_field~ (13)
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_eo_events~ (38)
+wp_eo_venuemeta~ (67)
+wp_facetwp_index~ (850)
+wp_icl_content_status^ (0)
+wp_icl_core_status^ (0)
+wp_icl_flags~ (64)
+wp_icl_languages~ (64)
+wp_icl_languages_translations~ (4096)
+wp_icl_locale_map~ (5)
+wp_icl_message_status^ (0)
+wp_icl_node^ (0)
+wp_icl_reminders^ (0)
+wp_icl_string_packages^ (0)
+wp_icl_string_pages~ (41585)
+wp_icl_string_positions~ (304)
+wp_icl_string_status^ (0)
+wp_icl_string_translations~ (254)
+wp_icl_string_urls~ (182)
+wp_icl_strings~ (9996)
+wp_icl_translate~ (2329)
+wp_icl_translate_job~ (341)
+wp_icl_translation_batches~ (75)
+wp_icl_translation_status~ (304)
+wp_icl_translations~ (1327)
+wp_links^ (0)
+wp_options~ (465)
+wp_postmeta~ (11940)
+wp_posts~ (2914)
+wp_smush_dir_images^ (0)
+wp_swp_cf~ (4521)
+wp_swp_index~ (73848)
+wp_swp_log~ (25143)
+wp_swp_tax~ (1429)
+wp_swp_terms~ (16693)
+wp_term_relationships~ (1526)
+wp_term_taxonomy~ (185)
+wp_termmeta^ (0)
+wp_terms~ (185)
+wp_usermeta~ (640)
+wp_users~ (25)
+--------------------------------------
+Search1:	'/home/earthin7/public_html' 
+Change1:	'C:/wamp64/www/eii_before_webside' 
+Search2:	'\/home\/earthin7\/public_html' 
+Change2:	'C:\/wamp64\/www\/eii_before_webside' 
+Search3:	'%2Fhome%2Fearthin7%2Fpublic_html%2F' 
+Change3:	'C%3A%2Fwamp64%2Fwww%2Feii_before_webside%2F' 
+Search4:	'\home\earthin7\public_html' 
+Change4:	'C:/wamp64/www/eii_before_webside' 
+Search5:	'//earthinnovation.org' 
+Change5:	'//localhost/eii_before_webside' 
+Search6:	'\/\/earthinnovation.org' 
+Change6:	'\/\/localhost\/eii_before_webside' 
+Search7:	'%2F%2Fearthinnovation.org' 
+Change7:	'%2F%2Flocalhost%2Feii_before_webside' 
+Search8:	'https://localhost/eii_before_webside' 
+Change8:	'http://localhost/eii_before_webside' 
+Search9:	'https:\/\/localhost\/eii_before_webside' 
+Change9:	'http:\/\/localhost\/eii_before_webside' 
+Search10:	'https%3A%2F%2Flocalhost%2Feii_before_webside' 
+Change10:	'http%3A%2F%2Flocalhost%2Feii_before_webside' 
+SCANNED:	Tables:44 	|	 Rows:201412 	|	 Cells:1302534 
+UPDATED:	Tables:4 	|	 Rows:3464 	|	 Cells:4184 
+ERRORS:		0 
+RUNTIME:	15.298600 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 09:20:31 - RUNTIME: 15.3243 sec.
+
+
