@@ -1,0 +1,225 @@
+# Translation of Plugins - Safe Redirect Manager - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Safe Redirect Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-27 18:28:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Safe Redirect Manager - Development (trunk)\n"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/safe-redirect-manager"
+msgstr "https://es.wordpress.org/plugins/safe-redirect-manager"
+
+#. Author of the plugin
+msgid "10up"
+msgstr "10up"
+
+#: inc/classes/class-srm-post-type.php:592
+msgid "Optionally leave notes on this redirect e.g. why was it created."
+msgstr "De manera opcional, dejar notas en esta redirección, ej. por qué fue creada."
+
+#: inc/classes/class-srm-post-type.php:590
+msgid "Notes:"
+msgstr "Notas:"
+
+#: inc/classes/class-srm-post-type.php:373
+msgid "Order"
+msgstr "Orden"
+
+#. Author URI of the plugin
+msgid "https://10up.com"
+msgstr "https://10up.com"
+
+#: inc/classes/class-srm-post-type.php:488
+msgctxt "redirect rule"
+msgid "Create Redirect Rule"
+msgstr "Crear regla de redirección"
+
+#: inc/classes/class-srm-post-type.php:312
+msgid "Redirect rule scheduled for: %1$s."
+msgstr "Regla de redirección programada para: %1$s."
+
+#: inc/classes/class-srm-post-type.php:39
+msgid "Not Found"
+msgstr "No encontrada"
+
+#: inc/classes/class-srm-post-type.php:38
+msgid "Forbidden"
+msgstr "Prohibido"
+
+#: inc/classes/class-srm-post-type.php:37
+msgid "Temporary Redirect"
+msgstr "Redirección temporal"
+
+#: inc/classes/class-srm-post-type.php:36
+msgid "See Other"
+msgstr "Ver otra"
+
+#: inc/classes/class-srm-post-type.php:35
+msgid "Found"
+msgstr "Encontrada"
+
+#: inc/classes/class-srm-post-type.php:34
+msgid "Moved Permanently"
+msgstr "Movida permanentemente"
+
+#. Description of the plugin
+msgid "Easily and safely manage HTTP redirects."
+msgstr "Gestionar de manera fácil y segura redirecciones HTTP."
+
+#: inc/classes/class-srm-post-type.php:586
+msgid "If you don't know what this is, leave it as is."
+msgstr "Si no sabes que es esto, déjalo tal cual."
+
+#: inc/classes/class-srm-post-type.php:580
+msgid "* HTTP Status Code:"
+msgstr "* Código de estado HTTP"
+
+#: inc/classes/class-srm-post-type.php:577
+msgid "This can be a URL or a path relative to the root of your website (not your WordPress installation). Ending with a (*) wildcard character will append the request match to the redirect."
+msgstr "Puede ser una URL o una ruta relativa a la raíz de tu web (no tu instalación de WordPress). Al finalizar con un carácter comodín (*), se agregará la coincidencia de solicitud a la redirección."
+
+#: inc/classes/class-srm-post-type.php:574
+msgid "* Redirect To:"
+msgstr "* Redirigir a:"
+
+#: inc/classes/class-srm-post-type.php:571
+msgid "This path should be relative to the root of this WordPress installation (or the sub-site, if you are running a multi-site). Appending a (*) wildcard character will match all requests with the base. Warning: Enabling regular expressions will disable wildcards and completely change the way the * symbol is interpretted."
+msgstr "Esta ruta debe ser relativa a la raíz de esta instalación de WordPress (o el subsitio, si estás ejecutando un multi-site). Añadir un carácter comodín (*) hará coincidir todas las solicitudes con la base. Advertencia: Habilitar las expresiones regulares deshabilitará los comodines y cambiará completamente la forma en que se interpreta el símbolo *."
+
+#: inc/classes/class-srm-post-type.php:569
+msgid "Enable Regular Expressions (advanced)"
+msgstr "Activar las expresiones regulares (avanzado)"
+
+#: inc/classes/class-srm-post-type.php:566
+msgid "* Redirect From:"
+msgstr "* Redirigir desde:"
+
+#: inc/classes/class-srm-post-type.php:541
+msgid "Redirect Settings"
+msgstr "Ajustes de redirección"
+
+#: inc/classes/class-srm-post-type.php:496
+msgid "No redirect rules found in trash."
+msgstr "No redirigir reglas encontradas en la papelera."
+
+#: inc/classes/class-srm-post-type.php:495
+msgid "No redirect rules found."
+msgstr "No se han encontrado reglas de redirección."
+
+#: inc/classes/class-srm-post-type.php:494
+msgid "Search Redirects"
+msgstr "Buscar redirecciones"
+
+#: inc/classes/class-srm-post-type.php:493
+msgid "View Redirect Rule"
+msgstr "Ver regla de redirección"
+
+#: inc/classes/class-srm-post-type.php:491
+msgid "New Redirect Rule"
+msgstr "Nueva regla de redirección"
+
+#: inc/classes/class-srm-post-type.php:490
+msgid "Edit Redirect Rule"
+msgstr "Editar regla de redirección"
+
+#. Plugin Name of the plugin
+#: inc/classes/class-srm-post-type.php:489
+#: inc/classes/class-srm-post-type.php:492
+#: inc/classes/class-srm-post-type.php:498
+msgid "Safe Redirect Manager"
+msgstr "Administrador de redirecciones seguras"
+
+#: inc/classes/class-srm-post-type.php:487
+msgctxt "post type singular name"
+msgid "Redirect"
+msgstr "Redirección"
+
+#: inc/classes/class-srm-post-type.php:486
+msgctxt "post type general name"
+msgid "Safe Redirect Manager"
+msgstr "Administrador de redirecciones seguras"
+
+#: inc/classes/class-srm-post-type.php:380
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/classes/class-srm-post-type.php:376
+msgid "Redirect From"
+msgstr "Redirigir desde"
+
+#: inc/classes/class-srm-post-type.php:372
+msgid "HTTP Status Code"
+msgstr "Código de estado HTTP"
+
+#: inc/classes/class-srm-post-type.php:371
+msgid "Redirect To"
+msgstr "Redirigir a"
+
+#: inc/classes/class-srm-post-type.php:317
+msgid "Redirect rule draft updated."
+msgstr "Borrador de regla de redirección actualizado."
+
+#. translators: Publish box date format, see http://php.net/date
+#: inc/classes/class-srm-post-type.php:314
+msgid "M j, Y @ G:i"
+msgstr "m/d/Y @ G:i"
+
+#: inc/classes/class-srm-post-type.php:310
+msgid "Redirect rule submitted."
+msgstr "Regla de redirección enviada."
+
+#: inc/classes/class-srm-post-type.php:309
+msgid "Redirect rule saved."
+msgstr "Regla de redirección guardada."
+
+#: inc/classes/class-srm-post-type.php:308
+msgid "Redirect rule published."
+msgstr "Regla de redirección publicada."
+
+#. translators: %s: date and time of the revision
+#: inc/classes/class-srm-post-type.php:307
+msgid "Redirect rule restored to revision from %s"
+msgstr "Regla de redirección restaurada a revisión desde %s"
+
+#: inc/classes/class-srm-post-type.php:304
+msgid "Custom field deleted."
+msgstr "Campo personalizado borrado."
+
+#: inc/classes/class-srm-post-type.php:303
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#: inc/classes/class-srm-post-type.php:302
+#: inc/classes/class-srm-post-type.php:305
+msgid "Redirect rule updated."
+msgstr "Regla de redirección actualizada."
+
+#: inc/classes/class-srm-post-type.php:251
+msgid "Safe Redirect Manager Error: You have reached the maximum allowable number of redirects"
+msgstr "Error del administrador de redirecciones seguras: se ha alcanzado el número máximo permitido de redirecciones"
+
+#: inc/classes/class-srm-post-type.php:237
+msgid "Safe Redirect Manager Warning: Possible redirect loops and/or chains have been created."
+msgstr "Advertencia del administrador de redirecciones seguras: Se han creado posibles bucles de redirección y/o cadenas."
+
+#: inc/functions.php:216
+msgid "An error occurred creating the redirect."
+msgstr "Ha ocurrido un error al crear la redirección"
+
+#: inc/functions.php:202
+msgid "Redirect already exists for %s"
+msgstr "Ya existe una redirección para %s"
+
+#: inc/functions.php:197
+msgid "Invalid status code."
+msgstr "Código de estado no válido."
+
+#: inc/functions.php:193
+msgid "Redirect from and/or redirect to arguments are invalid."
+msgstr "Redirigir y/o redirigir a argumentos no son válidos."
