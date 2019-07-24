@@ -1,0 +1,507 @@
+
+.alert-small {
+	width: 30px;
+	height: 30px;
+	background-position: -0px 0;
+}
+
+.conversation-small {
+	width: 60px;
+	height: 60px;
+	background-position: -40px 0;
+}
+
+.conversation_hover-small {
+	width: 60px;
+	height: 60px;
+	background-position: -110px 0;
+}
+
+.data-set-small {
+	width: 200px;
+	height: 100px;
+	background-position: -180px 0;
+}
+
+.data-set_thumb-small {
+	width: 50px;
+	height: 25px;
+	background-position: -390px 0;
+}
+
+.facebook-small {
+	width: 30px;
+	height: 30px;
+	background-position: -450px 0;
+}
+
+.facebook_hover-small {
+	width: 30px;
+	height: 30px;
+	background-position: -490px 0;
+}
+
+.language-map-small {
+	width: 36px;
+	height: 21px;
+	background-position: -530px 0;
+}
+
+.language-map_light-small {
+	width: 36px;
+	height: 21px;
+	background-position: -580px 0;
+}
+
+.linkedin-small {
+	width: 30px;
+	height: 30px;
+	background-position: -630px 0;
+}
+
+.linkedin_hover-small {
+	width: 30px;
+	height: 30px;
+	background-position: -670px 0;
+}
+
+.logo-small {
+	width: 90px;
+	height: 62px;
+	background-position: -710px 0;
+}
+
+.map-small {
+	width: 200px;
+	height: 100px;
+	background-position: -810px 0;
+}
+
+.map_thumb-small {
+	width: 50px;
+	height: 25px;
+	background-position: -1020px 0;
+}
+
+.menu-close-small {
+	width: 45px;
+	height: 45px;
+	background-position: -1080px 0;
+}
+
+.menu-close_hover-small {
+	width: 45px;
+	height: 45px;
+	background-position: -1140px 0;
+}
+
+.menu-open-small {
+	width: 45px;
+	height: 45px;
+	background-position: -1200px 0;
+}
+
+.menu-open_hover-small {
+	width: 45px;
+	height: 45px;
+	background-position: -1260px 0;
+}
+
+.presentation-small {
+	width: 200px;
+	height: 100px;
+	background-position: -1320px 0;
+}
+
+.presentation_thumb-small {
+	width: 50px;
+	height: 25px;
+	background-position: -1530px 0;
+}
+
+.publication-small {
+	width: 60px;
+	height: 60px;
+	background-position: -1590px 0;
+}
+
+.publication_hover-small {
+	width: 60px;
+	height: 60px;
+	background-position: -1660px 0;
+}
+
+.seedling-small {
+	width: 188px;
+	height: 309px;
+	background-position: -1730px 0;
+}
+
+.slider-arrow-left-small {
+	width: 30px;
+	height: 30px;
+	background-position: -1930px 0;
+}
+
+.slider-arrow-right-small {
+	width: 30px;
+	height: 30px;
+	background-position: -1970px 0;
+}
+
+.tool-small {
+	width: 200px;
+	height: 100px;
+	background-position: -2010px 0;
+}
+
+.tool_thumb-small {
+	width: 50px;
+	height: 25px;
+	background-position: -2220px 0;
+}
+
+.video-small {
+	width: 200px;
+	height: 100px;
+	background-position: -2280px 0;
+}
+
+.video_thumb-small {
+	width: 50px;
+	height: 25px;
+	background-position: -2490px 0;
+}
+
+.zoom-icon-small {
+	width: 50px;
+	height: 50px;
+	background-position: -2550px 0;
+}
+
+.zoom-icon_hover-small {
+	width: 50px;
+	height: 50px;
+	background-position: -2610px 0;
+}
+
+.alert-small,
+.conversation-small,
+.conversation_hover-small,
+.data-set-small,
+.data-set_thumb-small,
+.facebook-small,
+.facebook_hover-small,
+.language-map-small,
+.language-map_light-small,
+.linkedin-small,
+.linkedin_hover-small,
+.logo-small,
+.map-small,
+.map_thumb-small,
+.menu-close-small,
+.menu-close_hover-small,
+.menu-open-small,
+.menu-open_hover-small,
+.presentation-small,
+.presentation_thumb-small,
+.publication-small,
+.publication_hover-small,
+.seedling-small,
+.slider-arrow-left-small,
+.slider-arrow-right-small,
+.tool-small,
+.tool_thumb-small,
+.video-small,
+.video_thumb-small,
+.zoom-icon-small,
+.zoom-icon_hover-small {
+	background-image: url(../images/icons-small-sprite.png);
+	background-size: 2670px 310px;
+}
+
+.alert-large {
+	width: 60px;
+	height: 60px;
+	background-position: -0px 0;
+}
+
+.conversation-large {
+	width: 120px;
+	height: 120px;
+	background-position: -80px 0;
+}
+
+.conversation_hover-large {
+	width: 120px;
+	height: 120px;
+	background-position: -220px 0;
+}
+
+.data-set-large {
+	width: 400px;
+	height: 200px;
+	background-position: -360px 0;
+}
+
+.data-set_thumb-large {
+	width: 100px;
+	height: 50px;
+	background-position: -780px 0;
+}
+
+.facebook-large {
+	width: 60px;
+	height: 60px;
+	background-position: -900px 0;
+}
+
+.facebook_hover-large {
+	width: 60px;
+	height: 60px;
+	background-position: -980px 0;
+}
+
+.language-map-large {
+	width: 72px;
+	height: 42px;
+	background-position: -1060px 0;
+}
+
+.language-map_light-large {
+	width: 72px;
+	height: 42px;
+	background-position: -1160px 0;
+}
+
+.linkedin-large {
+	width: 60px;
+	height: 60px;
+	background-position: -1260px 0;
+}
+
+.linkedin_hover-large {
+	width: 60px;
+	height: 60px;
+	background-position: -1340px 0;
+}
+
+.logo-large {
+	width: 180px;
+	height: 124px;
+	background-position: -1420px 0;
+}
+
+.map-large {
+	width: 400px;
+	height: 200px;
+	background-position: -1620px 0;
+}
+
+.map_thumb-large {
+	width: 100px;
+	height: 50px;
+	background-position: -2040px 0;
+}
+
+.menu-close-large {
+	width: 90px;
+	height: 90px;
+	background-position: -2160px 0;
+}
+
+.menu-close_hover-large {
+	width: 90px;
+	height: 90px;
+	background-position: -2280px 0;
+}
+
+.menu-open-large {
+	width: 90px;
+	height: 90px;
+	background-position: -2400px 0;
+}
+
+.menu-open_hover-large {
+	width: 90px;
+	height: 90px;
+	background-position: -2520px 0;
+}
+
+.presentation-large {
+	width: 400px;
+	height: 200px;
+	background-position: -2640px 0;
+}
+
+.presentation_thumb-large {
+	width: 100px;
+	height: 50px;
+	background-position: -3060px 0;
+}
+
+.publication-large {
+	width: 120px;
+	height: 120px;
+	background-position: -3180px 0;
+}
+
+.publication_hover-large {
+	width: 120px;
+	height: 120px;
+	background-position: -3320px 0;
+}
+
+.seedling-large {
+	width: 376px;
+	height: 618px;
+	background-position: -3460px 0;
+}
+
+.slider-arrow-left-large {
+	width: 60px;
+	height: 60px;
+	background-position: -3860px 0;
+}
+
+.slider-arrow-right-large {
+	width: 60px;
+	height: 60px;
+	background-position: -3940px 0;
+}
+
+.tool-large {
+	width: 400px;
+	height: 200px;
+	background-position: -4020px 0;
+}
+
+.tool_thumb-large {
+	width: 100px;
+	height: 50px;
+	background-position: -4440px 0;
+}
+
+.video-large {
+	width: 400px;
+	height: 200px;
+	background-position: -4560px 0;
+}
+
+.video_thumb-large {
+	width: 100px;
+	height: 50px;
+	background-position: -4980px 0;
+}
+
+.zoom-icon-large {
+	width: 100px;
+	height: 100px;
+	background-position: -5100px 0;
+}
+
+.zoom-icon_hover-large {
+	width: 100px;
+	height: 100px;
+	background-position: -5220px 0;
+}
+
+.alert-large,
+.conversation-large,
+.conversation_hover-large,
+.data-set-large,
+.data-set_thumb-large,
+.facebook-large,
+.facebook_hover-large,
+.language-map-large,
+.language-map_light-large,
+.linkedin-large,
+.linkedin_hover-large,
+.logo-large,
+.map-large,
+.map_thumb-large,
+.menu-close-large,
+.menu-close_hover-large,
+.menu-open-large,
+.menu-open_hover-large,
+.presentation-large,
+.presentation_thumb-large,
+.publication-large,
+.publication_hover-large,
+.seedling-large,
+.slider-arrow-left-large,
+.slider-arrow-right-large,
+.tool-large,
+.tool_thumb-large,
+.video-large,
+.video_thumb-large,
+.zoom-icon-large,
+.zoom-icon_hover-large {
+	background-image: url(../images/icons-large-sprite.png);
+	background-size: 5340px 620px;
+}
+
+.svg .alert-small,
+.svg .conversation-small,
+.svg .conversation_hover-small,
+.svg .data-set-small,
+.svg .data-set_thumb-small,
+.svg .facebook-small,
+.svg .facebook_hover-small,
+.svg .language-map-small,
+.svg .language-map_light-small,
+.svg .linkedin-small,
+.svg .linkedin_hover-small,
+.svg .logo-small,
+.svg .map-small,
+.svg .map_thumb-small,
+.svg .menu-close-small,
+.svg .menu-close_hover-small,
+.svg .menu-open-small,
+.svg .menu-open_hover-small,
+.svg .presentation-small,
+.svg .presentation_thumb-small,
+.svg .publication-small,
+.svg .publication_hover-small,
+.svg .seedling-small,
+.svg .slider-arrow-left-small,
+.svg .slider-arrow-right-small,
+.svg .tool-small,
+.svg .tool_thumb-small,
+.svg .video-small,
+.svg .video_thumb-small,
+.svg .zoom-icon-small,
+.svg .zoom-icon_hover-small,
+.svg .alert-large,
+.svg .conversation-large,
+.svg .conversation_hover-large,
+.svg .data-set-large,
+.svg .data-set_thumb-large,
+.svg .facebook-large,
+.svg .facebook_hover-large,
+.svg .language-map-large,
+.svg .language-map_light-large,
+.svg .linkedin-large,
+.svg .linkedin_hover-large,
+.svg .logo-large,
+.svg .map-large,
+.svg .map_thumb-large,
+.svg .menu-close-large,
+.svg .menu-close_hover-large,
+.svg .menu-open-large,
+.svg .menu-open_hover-large,
+.svg .presentation-large,
+.svg .presentation_thumb-large,
+.svg .publication-large,
+.svg .publication_hover-large,
+.svg .seedling-large,
+.svg .slider-arrow-left-large,
+.svg .slider-arrow-right-large,
+.svg .tool-large,
+.svg .tool_thumb-large,
+.svg .video-large,
+.svg .video_thumb-large,
+.svg .zoom-icon-large,
+.svg .zoom-icon_hover-large {
+	background-image: url(../images/icons-sprite.svg);
+}
