@@ -1,0 +1,170 @@
+0000.000 (0) Opened log file at time: Mon, 22 Jun 2015 21:09:41 +0000 on http://earthinnovation.org
+0000.003 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.5M | 38.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.258 (0) Free space on disk containing Updraft's temporary directory: 463212.7 Mb
+0000.277 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.280 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.283 (0) Decremented the semaphore (fd) by 1
+0000.286 (0) Semaphore (fd) still locked
+0000.288 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.294 (0) Rescheduling resumption 1: moving to 120 seconds from now (1435007502)
+0000.300 (0) No email will be sent - this backup set was empty.
+0000.302 (0) The backup has not finished; a resumption is scheduled
+1306.660 (1) Opened log file at time: Mon, 22 Jun 2015 21:22:36 +0000 on http://earthinnovation.org
+1306.663 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1306.907 (1) Free space on disk containing Updraft's temporary directory: 463218.4 Mb
+1306.914 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1307s ago), job type=backup, previous check-in=531.6s
+1306.920 (1) Scheduling a resumption (2) after 562 seconds (1435008718) in case this run gets aborted
+1306.938 (1) Checking if we have a zip executable available
+1306.943 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1306.945 (1) Creation of backups of directories: already finished
+1306.950 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008154, time_now=1435008156, diff=2, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1306.955 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435008838)
+1306.973 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1376.107 (1) Opened log file at time: Mon, 22 Jun 2015 21:23:46 +0000 on http://earthinnovation.org
+1376.109 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1376.322 (1) Free space on disk containing Updraft's temporary directory: 463214.9 Mb
+1376.329 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1377s ago), job type=backup, previous check-in=531.6s
+1376.335 (1) Scheduling a resumption (2) after 562 seconds (1435008788) in case this run gets aborted
+1376.349 (1) Checking if we have a zip executable available
+1376.352 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1376.355 (1) Creation of backups of directories: already finished
+1376.360 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008224, time_now=1435008226, diff=2, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1376.365 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435008908)
+1376.372 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1439.910 (1) Opened log file at time: Mon, 22 Jun 2015 21:24:49 +0000 on http://earthinnovation.org
+1439.913 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1440.346 (1) Free space on disk containing Updraft's temporary directory: 463216.5 Mb
+1440.354 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1441s ago), job type=backup, previous check-in=531.6s
+1440.375 (1) Scheduling a resumption (2) after 562 seconds (1435008852) in case this run gets aborted
+1440.395 (1) Checking if we have a zip executable available
+1440.398 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1440.401 (1) Creation of backups of directories: already finished
+1440.408 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008288, time_now=1435008290, diff=2, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1440.414 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435008972)
+1440.423 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1549.477 (1) Opened log file at time: Mon, 22 Jun 2015 21:26:39 +0000 on http://earthinnovation.org
+1549.480 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1549.739 (1) Free space on disk containing Updraft's temporary directory: 463200 Mb
+1549.746 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1550s ago), job type=backup, previous check-in=531.6s
+1549.751 (1) Scheduling a resumption (2) after 562 seconds (1435008961) in case this run gets aborted
+1549.764 (1) Checking if we have a zip executable available
+1549.766 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1549.768 (1) Creation of backups of directories: already finished
+1549.772 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008398, time_now=1435008399, diff=1, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1549.779 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435009081)
+1549.786 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1732.243 (1) Opened log file at time: Mon, 22 Jun 2015 21:29:42 +0000 on http://earthinnovation.org
+1732.246 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1732.547 (1) Free space on disk containing Updraft's temporary directory: 463188.9 Mb
+1732.554 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1733s ago), job type=backup, previous check-in=531.6s
+1732.560 (1) Scheduling a resumption (2) after 562 seconds (1435009144) in case this run gets aborted
+1732.577 (1) Checking if we have a zip executable available
+1732.580 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1732.582 (1) Creation of backups of directories: already finished
+1732.587 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008580, time_now=1435008582, diff=2, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1732.592 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435009264)
+1732.601 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1860.161 (1) Opened log file at time: Mon, 22 Jun 2015 21:31:50 +0000 on http://earthinnovation.org
+1860.165 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1860.435 (1) Free space on disk containing Updraft's temporary directory: 463188.9 Mb
+1860.444 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1861s ago), job type=backup, previous check-in=531.6s
+1860.447 (1) Long time past since expected resumption time: approx expected=1435007944.1, now=1435008710.1, diff=766
+1860.453 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1860.459 (1) Scheduling a resumption (2) after 562 seconds (1435009272) in case this run gets aborted
+1860.478 (1) Checking if we have a zip executable available
+1860.482 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1860.484 (1) Creation of backups of directories: already finished
+1860.491 (1) Terminate: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip exists with activity within the last 30 seconds (time_mod=1435008708, time_now=1435008710, diff=2, size=511764.1Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1860.497 (1) Rescheduling resumption 2: moving to 682 seconds from now (1435009392)
+1860.505 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 562 + 120 = 682
+1995.019 (1) Opened log file at time: Mon, 22 Jun 2015 21:34:05 +0000 on http://earthinnovation.org
+1995.022 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 33M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1995.250 (1) Free space on disk containing Updraft's temporary directory: 463186.2 Mb
+1995.258 (1) Backup run: resumption=1, nonce=c1935ba8948f, begun at=1435006849 (1996s ago), job type=backup, previous check-in=531.6s
+1995.260 (1) Long time past since expected resumption time: approx expected=1435007944.1, now=1435008845, diff=900.9
+1995.265 (1) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: http://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+1995.271 (1) Scheduling a resumption (2) after 562 seconds (1435009407) in case this run gets aborted
+1995.288 (1) Checking if we have a zip executable available
+1995.291 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1995.293 (1) Creation of backups of directories: already finished
+1995.295 (1) Saving backup status to database (elements: 9)
+1995.302 (1) Database dump (WordPress DB): Creation was completed already
+1995.305 (1) Saving backup history
+1995.314 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-plugins.zip: plugins: This file has already been successfully uploaded
+1995.316 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-themes.zip: themes: This file has already been successfully uploaded
+1995.318 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1995.321 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads2.zip: uploads: This file has already been successfully uploaded
+1995.323 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-others.zip: others: This file has already been successfully uploaded
+1995.325 (1) backup_2015-06-22-2100_Earth_Innovation_Institute_c1935ba8948f-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem (/home1/earthin7/public_html/wp-content/updraft/backup_2015-06-22-2100_Earth_Innovation_Institute_c1935ba8948f-db.gz)
+1995.331 (1) Recording as successfully uploaded: backup_2015-06-22-2100_Earth_Innovation_Institute_c1935ba8948f-db.gz (04e2958fecf7a1655a82af632f835f87)
+1995.346 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+1995.352 (1) Cloud backup selection (1/1): dropbox (last)
+1995.357 (1) Beginning dispatch of backup to remote (dropbox)
+1995.360 (1) Dropbox: begin cloud upload
+1995.387 (1) Dropbox: access gained
+1995.629 (1) Dropbox quota usage: normal=4407.1 Mb, shared=6054.6 Mb, total=1050880 Mb, available=1040418.3 Mb
+1995.632 (1) This is a resumption: 70254592 bytes had already been uploaded
+1995.634 (1) Dropbox: Attempt to upload: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip to: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip
+1996.935 (1) Dropbox chunked upload exception (Dropbox_BadRequestException): Submitted input out of alignment: got [70254592] expected [482344960] (line: 169, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1996.938 (1) Dropbox not yet aligned: tried=70254592, wanted=482344960; will attempt recovery
+1998.675 (1) Dropbox chunked upload: 92.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 483393536)
+2000.659 (1) Dropbox chunked upload: 92.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 484442112)
+2003.415 (1) Dropbox chunked upload: 92.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 485490688)
+2005.940 (1) Dropbox chunked upload: 92.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 486539264)
+2007.782 (1) Dropbox chunked upload: 93 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 487587840)
+2009.895 (1) Dropbox chunked upload: 93.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 488636416)
+2012.321 (1) Dropbox chunked upload: 93.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 489684992)
+2015.257 (1) Dropbox chunked upload: 93.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 490733568)
+2016.954 (1) Dropbox chunked upload: 93.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 491782144)
+2018.814 (1) Dropbox chunked upload: 94 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 492830720)
+2021.055 (1) Dropbox chunked upload: 94.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 493879296)
+2024.472 (1) Dropbox chunked upload: 94.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 494927872)
+2026.228 (1) Dropbox chunked upload: 94.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 495976448)
+2028.481 (1) Dropbox chunked upload: 94.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 497025024)
+2030.637 (1) Dropbox chunked upload: 95 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 498073600)
+2033.892 (1) Dropbox chunked upload: 95.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 499122176)
+2036.163 (1) Dropbox chunked upload: 95.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 500170752)
+2038.163 (1) Dropbox chunked upload: 95.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 501219328)
+2042.063 (1) Dropbox chunked upload: 95.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 502267904)
+2045.279 (1) Dropbox chunked upload: 96 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 503316480)
+2047.046 (1) Dropbox chunked upload: 96.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 504365056)
+2048.965 (1) Dropbox chunked upload: 96.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 505413632)
+2051.495 (1) Dropbox chunked upload: 96.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 506462208)
+2054.732 (1) Dropbox chunked upload: 96.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 507510784)
+2056.550 (1) Dropbox chunked upload: 97 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 508559360)
+2058.478 (1) Dropbox chunked upload: 97.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 509607936)
+2060.529 (1) Dropbox chunked upload: 97.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 510656512)
+2064.394 (1) Dropbox chunked upload: 97.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 511705088)
+2066.118 (1) Dropbox chunked upload: 97.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 512753664)
+2068.410 (1) Dropbox chunked upload: 98 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 513802240)
+2070.922 (1) Dropbox chunked upload: 98.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 514850816)
+2074.001 (1) Dropbox chunked upload: 98.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 515899392)
+2075.966 (1) Dropbox chunked upload: 98.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 516947968)
+2078.315 (1) Dropbox chunked upload: 98.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 517996544)
+2080.682 (1) Dropbox chunked upload: 99 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 519045120)
+2084.194 (1) Dropbox chunked upload: 99.2 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 520093696)
+2086.209 (1) Dropbox chunked upload: 99.4 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 521142272)
+2088.252 (1) Dropbox chunked upload: 99.6 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 522190848)
+2090.444 (1) Dropbox chunked upload: 99.8 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 523239424)
+2092.577 (1) Dropbox chunked upload: 100 % uploaded (y_e6pPnydvTaTDFTeoVlBA, 524046400)
+2095.921 (1) Recording as successfully uploaded: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip (367aeb3924b91bb21ac6b23914d9e7fd)
+2096.153 (1) Deleting local file: backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip: OK
+2096.156 (1) Dropbox: File upload success (backup_2015-06-22-2100_Earth_Innovation_Institute_d2f451c93e3c-uploads.zip): 511764 Kb in 100s (5090 Kb/s)
+2096.161 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+2096.164 (1) Number of backup sets in history: 3
+2096.166 (1) Examining backup set with datestamp: 1435006849 (Jun 22 2015 21:00:49)
+2096.168 (1) 1435006849: db: this set includes a database (backup_2015-06-22-2100_Earth_Innovation_Institute_c1935ba8948f-db.gz); db count is now 1
+2096.173 (1) 1435006849: this backup set remains non-empty (1/1); will retain in history
+2096.175 (1) Examining backup set with datestamp: 1434920475 (Jun 21 2015 21:01:15)
+2096.177 (1) 1434920475: db: this set includes a database (backup_2015-06-21-2101_Earth_Innovation_Institute_0c690da4659f-db.gz); db count is now 2
+2096.181 (1) 1434920475: this backup set remains non-empty (1/1); will retain in history
+2096.183 (1) Examining backup set with datestamp: 1434834571 (Jun 20 2015 21:09:31)
+2096.185 (1) 1434834571: db: this set includes a database (backup_2015-06-20-2109_Earth_Innovation_Institute_c8b0362c3d06-db.gz); db count is now 3
+2096.190 (1) 1434834571: this backup set remains non-empty (1/1); will retain in history
+2096.192 (1) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2096.195 (1) Resume backup (c1935ba8948f, 1): finish run
+2096.199 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+2096.207 (1) Fetching RSS news feed
+2096.364 (1) Fetched RSS news feed; result is a: SimplePie
+2096.369 (1) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 18.9 Kb) to: abel@...
+2098.663 (1) The backup apparently succeeded (with warnings) and is now complete

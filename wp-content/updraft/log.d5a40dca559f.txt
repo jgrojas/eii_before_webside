@@ -1,0 +1,55 @@
+0000.000 (0) Opened log file at time: Mon, 30 Mar 2015 21:14:04 +0000 on http://earthinnovation.org
+0000.005 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.1M | 40.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.267 (0) Free space on disk containing Updraft's temporary directory: 658375.1 Mb
+0000.284 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.289 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.294 (0) Decremented the semaphore (fd) by 1
+0000.298 (0) Semaphore (fd) still locked
+0000.302 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0000.311 (0) Rescheduling resumption 1: moving to 180 seconds from now (1427750224)
+0000.320 (0) No email will be sent - this backup set was empty.
+0000.324 (0) The backup has not finished; a resumption is scheduled
+1183.592 (1) Opened log file at time: Mon, 30 Mar 2015 21:21:35 +0000 on http://earthinnovation.org
+1183.596 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.6M | 34M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1183.847 (1) Free space on disk containing Updraft's temporary directory: 658426 Mb
+1183.864 (1) Backup run: resumption=1, nonce=d5a40dca559f, begun at=1427749312 (1184s ago), job type=backup, previous check-in=731.8s
+1183.873 (1) Scheduling a resumption (2) after 762 seconds (1427751258) in case this run gets aborted
+1183.894 (1) Checking if we have a zip executable available
+1183.899 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1183.903 (1) Creation of backups of directories: already finished
+1183.911 (1) Terminate: backup_2015-03-30-2101_Earth_Innovation_Institute_dfbf8cdba387-uploads.zip exists with activity within the last 30 seconds (time_mod=1427750495, time_now=1427750496, diff=1, size=447450.5Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1183.919 (1) Rescheduling resumption 2: moving to 600 seconds from now (1427751096)
+1183.932 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 762 + 120 = 882
+1252.122 (1) Opened log file at time: Mon, 30 Mar 2015 21:22:44 +0000 on http://earthinnovation.org
+1252.126 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.6M | 34M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1252.347 (1) Free space on disk containing Updraft's temporary directory: 658425 Mb
+1252.356 (1) Backup run: resumption=1, nonce=d5a40dca559f, begun at=1427749312 (1252s ago), job type=backup, previous check-in=731.8s
+1252.363 (1) Scheduling a resumption (2) after 762 seconds (1427751326) in case this run gets aborted
+1252.378 (1) Checking if we have a zip executable available
+1252.381 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1252.384 (1) Creation of backups of directories: already finished
+1252.393 (1) Terminate: backup_2015-03-30-2101_Earth_Innovation_Institute_dfbf8cdba387-uploads.zip exists with activity within the last 30 seconds (time_mod=1427750563, time_now=1427750564, diff=1, size=447450.5Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1252.400 (1) Rescheduling resumption 2: moving to 600 seconds from now (1427751164)
+1252.411 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 762 + 120 = 882
+1320.078 (1) Opened log file at time: Mon, 30 Mar 2015 21:23:52 +0000 on http://earthinnovation.org
+1320.083 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.6M | 34M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1320.288 (1) Free space on disk containing Updraft's temporary directory: 658422.3 Mb
+1320.296 (1) Backup run: resumption=1, nonce=d5a40dca559f, begun at=1427749312 (1320s ago), job type=backup, previous check-in=731.8s
+1320.303 (1) Scheduling a resumption (2) after 762 seconds (1427751394) in case this run gets aborted
+1320.318 (1) Checking if we have a zip executable available
+1320.321 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1320.324 (1) Creation of backups of directories: already finished
+1320.331 (1) Terminate: backup_2015-03-30-2101_Earth_Innovation_Institute_dfbf8cdba387-uploads.zip exists with activity within the last 30 seconds (time_mod=1427750631, time_now=1427750632, diff=1, size=447450.5Kb). This likely means that another UpdraftPlus run is at work; so we will exit.
+1320.337 (1) Rescheduling resumption 2: moving to 600 seconds from now (1427751232)
+1320.346 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 762 + 120 = 882
+1651.602 (1) Opened log file at time: Mon, 30 Mar 2015 21:29:23 +0000 on http://earthinnovation.org
+1651.607 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 44M | 44.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1651.861 (1) Free space on disk containing Updraft's temporary directory: 658857 Mb
+1651.872 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1427750961.3, time_now=1427750963.8, diff=2, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+1651.876 (1) Rescheduling resumption 2: moving to 600 seconds from now (1427751564)
+1651.888 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 762 + 120 = 882
+3625.954 (2) Opened log file at time: Mon, 30 Mar 2015 22:02:18 +0000 on http://earthinnovation.org
+3625.958 (2) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.60 WP: 4.1.1 PHP: 5.4.38 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.8M | 34.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+3626.170 (2) Free space on disk containing Updraft's temporary directory: 658822.6 Mb
+3626.178 (2) Backup run: resumption=2, nonce=d5a40dca559f, begun at=1427749312 (3626s ago), job type=backup, previous check-in=0.3s
+3626.182 (2) Terminate: This backup job is already finished.

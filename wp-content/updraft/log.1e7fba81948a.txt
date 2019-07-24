@@ -1,0 +1,9 @@
+0000.000 (0) Opened log file at time: Sat, 20 Dec 2014 21:16:21 +0000 on http://earthinnovation.org
+0000.004 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.30 WP: 4.0.1 PHP: 5.4.34 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.40-36.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.6M | 31.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.233 (0) Free space on disk containing Updraft's temporary directory: 841445 Mb
+0000.239 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.244 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.250 (0) Decremented the semaphore (fd) by 1
+0000.255 (0) Semaphore (fd) still locked
+0000.258 (0) No email will be sent - this backup set was empty.
+0000.261 (0) The backup apparently succeeded and is now complete

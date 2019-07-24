@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Tue, 19 May 2015 21:23:29 +0000 on http://earthinnovation.org
+0000.005 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.64 WP: 4.1.5 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31.8M | 32M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.217 (0) Free space on disk containing Updraft's temporary directory: 552799.3 Mb
+0000.236 (0) Tasks: Backup files:  (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.239 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.245 (0) No email will be sent - this backup set was empty.
+0000.247 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,1238 @@
+0000.040 (0) Opened log file at time: Tue, 14 Jul 2015 21:11:47 +0000 on http://earthinnovation.org
+0000.053 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.4M | 32.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.369 (0) Free space on disk containing Updraft's temporary directory: 438037.5 Mb
+0000.518 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.521 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.564 (0) Requesting semaphore lock (fd)
+0000.569 (0) Set semaphore last lock (fd) time to 2015-07-14 21:11:48
+0000.572 (0) Semaphore lock (fd) complete
+0000.580 (0) Backup run: resumption=0, nonce=a75438fc8560, begun at=1436908307 (1s ago), job type=backup
+0000.585 (0) Scheduling a resumption (1) after 300 seconds (1436908608) in case this run gets aborted
+0000.635 (0) Checking if we have a zip executable available
+0000.638 (0) Testing: /usr/bin/zip
+0000.742 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.745 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.747 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.749 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.751 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.765 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.769 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.809 (0) Working binary zip found: /usr/bin/zip
+0000.814 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.816 (0) Creation of backups of directories: beginning
+0000.827 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0002.634 (0) Total entities for the zip file: 617 directories, 4273 files (0 skipped as non-modified), 52.5 Mb
+0002.651 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.657 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0002.662 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0002.667 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0002.672 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0002.674 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 Mb, 4273 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0007.407 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 2.60 Mb
+0007.417 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 600 files added (on-disk size: 2682 Kb)
+0007.424 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 700 files added (on-disk size: 2682 Kb)
+0007.431 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 800 files added (on-disk size: 2682 Kb)
+0007.437 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 900 files added (on-disk size: 2682 Kb)
+0007.442 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1000 files added (on-disk size: 2682 Kb)
+0007.445 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 Mb, 4273 files batched, 501 (1002) added so far); re-opening (prior size: 2682 Kb)
+0008.895 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 3.70 Mb
+0008.905 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1100 files added (on-disk size: 3811 Kb)
+0008.911 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1200 files added (on-disk size: 3811 Kb)
+0008.916 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1300 files added (on-disk size: 3811 Kb)
+0008.921 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1400 files added (on-disk size: 3811 Kb)
+0008.925 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1500 files added (on-disk size: 3811 Kb)
+0008.928 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 Mb, 4273 files batched, 501 (1503) added so far); re-opening (prior size: 3811 Kb)
+0012.771 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 5.40 Mb
+0012.780 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1600 files added (on-disk size: 5548.6 Kb)
+0012.785 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1700 files added (on-disk size: 5548.6 Kb)
+0012.790 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1800 files added (on-disk size: 5548.6 Kb)
+0012.794 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 1900 files added (on-disk size: 5548.6 Kb)
+0012.798 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2000 files added (on-disk size: 5548.6 Kb)
+0012.801 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 Mb, 4273 files batched, 501 (2004) added so far); re-opening (prior size: 5548.6 Kb)
+0016.453 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 7.70 Mb
+0016.463 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2100 files added (on-disk size: 7874.3 Kb)
+0016.468 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2200 files added (on-disk size: 7874.3 Kb)
+0016.472 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2300 files added (on-disk size: 7874.3 Kb)
+0016.477 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2400 files added (on-disk size: 7874.3 Kb)
+0016.482 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2500 files added (on-disk size: 7874.3 Kb)
+0016.485 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 Mb, 4273 files batched, 501 (2505) added so far); re-opening (prior size: 7874.3 Kb)
+0022.526 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 12.40 Mb
+0022.535 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2600 files added (on-disk size: 12652.7 Kb)
+0022.539 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2700 files added (on-disk size: 12652.7 Kb)
+0022.543 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2800 files added (on-disk size: 12652.7 Kb)
+0022.548 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 2900 files added (on-disk size: 12652.7 Kb)
+0022.552 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3000 files added (on-disk size: 12652.7 Kb)
+0022.554 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 Mb, 4273 files batched, 501 (3006) added so far); re-opening (prior size: 12652.7 Kb)
+0024.719 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3100 files added (on-disk size: 13374.3 Kb)
+0024.724 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3200 files added (on-disk size: 13374.3 Kb)
+0024.729 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3300 files added (on-disk size: 13374.3 Kb)
+0024.733 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3400 files added (on-disk size: 13374.3 Kb)
+0024.738 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3500 files added (on-disk size: 13374.3 Kb)
+0024.740 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 Mb, 4273 files batched, 501 (3507) added so far); re-opening (prior size: 13374.3 Kb)
+0027.666 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: size is now: 16.70 Mb
+0027.675 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3600 files added (on-disk size: 17139.8 Kb)
+0027.680 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3700 files added (on-disk size: 17139.8 Kb)
+0027.684 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3800 files added (on-disk size: 17139.8 Kb)
+0027.688 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 3900 files added (on-disk size: 17139.8 Kb)
+0027.693 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 4000 files added (on-disk size: 17139.8 Kb)
+0027.696 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 Mb, 4273 files batched, 501 (4008) added so far); re-opening (prior size: 17139.8 Kb)
+0028.876 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 4100 files added (on-disk size: 17869 Kb)
+0028.881 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip.tmp: 4200 files added (on-disk size: 17869 Kb)
+0031.605 (0) Created plugins zip (0) - 19934.8 Kb in 30.3 s (658.5 Kb/s) (SHA1 checksum: eacbff7508c5006e2ba4d7030e8feb9e1d8167e1)
+0031.627 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0032.298 (0) Total entities for the zip file: 40 directories, 270 files (0 skipped as non-modified), 5.1 Mb
+0032.304 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0032.317 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0036.196 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip.tmp: size is now: 3.60 Mb
+0036.234 (0) Created themes zip (0) - 3708.2 Kb in 4.1 s (900.7 Kb/s) (SHA1 checksum: e3a77b6984a2edd9fd770c85203988aca399040c)
+0036.272 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0036.274 (0) Looking for candidates to back up in: /home1/earthin7/public_html/wp-content/uploads
+0036.277 (0) finding files: 2012: adding to list (1)
+0036.279 (0) finding files: profiles: adding to list (2)
+0036.281 (0) finding files: 2013: adding to list (3)
+0036.283 (0) finding files: 2015: adding to list (4)
+0036.287 (0) finding files: 2014: adding to list (5)
+0036.289 (0) finding files: minit: adding to list (6)
+0036.292 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0036.727 (0) Total entities for the zip file: 23 directories, 1556 files (0 skipped as non-modified), 611.8 Mb
+0036.733 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.8 Mb, 1556 files batched, 67 (67) added so far); re-opening (prior size: 0 Kb)
+0040.076 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 21.40 Mb
+0040.083 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 3.9 s, rate: 6612.7 Kb/s)
+0040.089 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.997701883316, normalised_time=3.8713225709821, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=40628595)
+0040.096 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 100 files added (on-disk size: 21953.9 Kb)
+0040.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 38.7 Mb added on this batch (38.9 Mb, 1556 files batched, 83 (150) added so far); re-opening (prior size: 21953.9 Kb)
+0044.464 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 53.80 Mb
+0044.471 (0) A useful amount of data was added after this amount of zip processing: 4.4 s (normalised: 4.4 s, rate: 9078 Kb/s)
+0044.476 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.3856151103973, normalised_time=4.3706265593745, max_time=-1, data points known=0, old_max_bytes=40628595, new_max_bytes=55774971)
+0044.481 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (64.3 Mb, 1556 files batched, 39 (189) added so far); re-opening (prior size: 55054.6 Kb)
+0051.403 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 112.80 Mb
+0051.412 (0) A useful amount of data was added after this amount of zip processing: 7.3 s (normalised: 6.1 s, rate: 8992.6 Kb/s)
+0051.420 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 200 files added (on-disk size: 115482.2 Kb)
+0051.426 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 300 files added (on-disk size: 115482.2 Kb)
+0051.430 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (55.6 Mb, 1556 files batched, 152 (341) added so far); re-opening (prior size: 115482.2 Kb)
+0058.072 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 162.60 Mb
+0058.078 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 6.7 s, rate: 8141.1 Kb/s)
+0058.084 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 400 files added (on-disk size: 166512.9 Kb)
+0058.088 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 500 files added (on-disk size: 166512.9 Kb)
+0058.093 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 600 files added (on-disk size: 166512.9 Kb)
+0058.096 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (54.1 Mb, 1556 files batched, 293 (634) added so far); re-opening (prior size: 166512.9 Kb)
+0064.062 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 213.70 Mb
+0064.068 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 6.9 s, rate: 7939.9 Kb/s)
+0064.074 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 700 files added (on-disk size: 218866.8 Kb)
+0064.079 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (60.9 Mb, 1556 files batched, 139 (773) added so far); re-opening (prior size: 218866.8 Kb)
+0070.346 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 270.40 Mb
+0070.352 (0) A useful amount of data was added after this amount of zip processing: 7.3 s (normalised: 6.3 s, rate: 8587.4 Kb/s)
+0070.358 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 800 files added (on-disk size: 276844.7 Kb)
+0070.363 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 900 files added (on-disk size: 276844.7 Kb)
+0070.367 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 1000 files added (on-disk size: 276844.7 Kb)
+0070.372 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 1100 files added (on-disk size: 276844.7 Kb)
+0070.378 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (53.3 Mb, 1556 files batched, 362 (1135) added so far); re-opening (prior size: 276844.7 Kb)
+0077.113 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 320.90 Mb
+0077.119 (0) A useful amount of data was added after this amount of zip processing: 7 s (normalised: 7 s, rate: 7754.2 Kb/s)
+0077.125 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 1200 files added (on-disk size: 328558.5 Kb)
+0077.131 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 1300 files added (on-disk size: 328558.5 Kb)
+0077.137 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (59.1 Mb, 1556 files batched, 257 (1392) added so far); re-opening (prior size: 328558.5 Kb)
+0085.671 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 375.30 Mb
+0085.677 (0) A useful amount of data was added after this amount of zip processing: 8.6 s (normalised: 7.7 s, rate: 7042.6 Kb/s)
+0085.682 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: 1400 files added (on-disk size: 384320.4 Kb)
+0085.684 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (56.3 Mb, 1556 files batched, 9 (1401) added so far); re-opening (prior size: 384320.4 Kb)
+0092.712 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip.tmp: size is now: 428.80 Mb
+0092.721 (0) A useful amount of data was added after this amount of zip processing: 7.6 s (normalised: 7.2 s, rate: 7547.7 Kb/s)
+0092.728 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (54.3 Mb, 1556 files batched, 27 (1428) added so far); re-opening (prior size: 439135.7 Kb)
+0099.604 (0) A useful amount of data was added after this amount of zip processing: 7.5 s (normalised: 7.4 s, rate: 7399 Kb/s)
+0099.609 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (26.1 Mb, 6 (1434) files added so far); last ratio: 0.873; re-opening (prior size: 487697.7 Kb)
+0104.125 (0) Zip size is at/near split limit (500.6 Mb / 500 Mb) - bumping index (from: 0)
+0107.684 (0) Created uploads zip (0) - 512573.2 Kb in 67.6 s (7585.9 Kb/s) (SHA1 checksum: b8842fbb7f64914a1f9b86f26d32cadf317bb32e)
+0107.713 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0.6 Mb, 1 (1435) files added so far); re-opening (prior size: 0 Kb)
+0107.766 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip.tmp: size is now: 0.60 Mb
+0107.773 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 53.2 Mb added on this batch (53.3 Mb, 1556 files batched, 55 (1490) added so far); re-opening (prior size: 631.6 Kb)
+0111.855 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip.tmp: size is now: 50.80 Mb
+0111.863 (0) A useful amount of data was added after this amount of zip processing: 4.8 s (normalised: 4.8 s, rate: 11420.3 Kb/s)
+0111.868 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.7768609523773, normalised_time=4.769398795456, max_time=-1, data points known=0, old_max_bytes=55774971, new_max_bytes=70166039)
+0111.873 (0) Zip: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip.tmp: 1500 files added (on-disk size: 52033.6 Kb)
+0114.245 (0) Created uploads zip (1) - 54888.2 Kb in 6.6 s (8368.5 Kb/s) (SHA1 checksum: 6b0532f097d31906a30b52c4e19033a2c5c9078a)
+0114.268 (0) Beginning backup of other directories found in the content directory (index: 0)
+0114.272 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0114.275 (0) Looking for candidates to back up in: /home1/earthin7/public_html/wp-content
+0114.278 (0) finding files: advanced-cache.php: adding to list (1)
+0114.280 (0) finding files: upgrade: skipping: excluded by options
+0114.283 (0) finding files: plugins: skipping: this is the plugins directory
+0114.286 (0) finding files: updraft: skipping: this is the updraft directory
+0114.288 (0) finding files: temp-write-test-1414558753: adding to list (2)
+0114.291 (0) finding files: themes: skipping: this is the themes directory
+0114.294 (0) finding files: uploads: skipping: this is the uploads directory
+0114.297 (0) finding files: w3tc-config: adding to list (3)
+0114.299 (0) finding files: object-cache.php: adding to list (4)
+0114.302 (0) finding files: mu-plugins: adding to list (5)
+0114.305 (0) finding files: cache: skipping: excluded by options
+0114.308 (0) finding files: index.php: adding to list (6)
+0114.310 (0) finding files: db.php: adding to list (7)
+0114.775 (0) Total entities for the zip file: 2 directories, 8 files (0 skipped as non-modified), 0 Mb
+0114.809 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip.tmp: size is now: 0.00 Mb
+0114.820 (0) Created others zip (0) - 9.6 Kb in 0.1 s (180.4 Kb/s) (SHA1 checksum: 4531b6eeb493295e277ba0954c821bc06334c2e5)
+0114.847 (0) Saving backup status to database (elements: 9)
+0114.855 (0) Beginning creation of database dump (WordPress DB)
+0114.860 (0) Testing: /usr/bin/mysqldump
+0115.041 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0115.057 (0) Table wp_options: Total expected rows (approximate): 346
+0115.094 (0) Table wp_options: Total rows added: 345 in 0.03 seconds
+0115.097 (0) Table wp_options: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_options.table.gz - 95.6 Kb)
+0115.107 (0) Table wp_users: Total expected rows (approximate): 13
+0115.115 (0) Table wp_users: Total rows added: 13 in 0.01 seconds
+0115.119 (0) Table wp_users: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_users.table.gz - 1.3 Kb)
+0115.129 (0) Table wp_usermeta: Total expected rows (approximate): 319
+0115.148 (0) Table wp_usermeta: Total rows added: 319 in 0.02 seconds
+0115.151 (0) Table wp_usermeta: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_usermeta.table.gz - 5.2 Kb)
+0115.164 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0115.170 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0115.174 (0) Table wp_commentmeta: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_commentmeta.table.gz - 0.3 Kb)
+0115.186 (0) Table wp_comments: Total expected rows (approximate): 1
+0115.192 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0115.195 (0) Table wp_comments: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_comments.table.gz - 0.6 Kb)
+0115.207 (0) Table wp_links: Total expected rows (approximate): 0
+0115.212 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0115.215 (0) Table wp_links: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_links.table.gz - 0.4 Kb)
+0115.223 (0) Table wp_postmeta: Total expected rows (approximate): 5430
+0115.387 (0) Table wp_postmeta: Total rows added: 5430 in 0.16 seconds
+0115.390 (0) Table wp_postmeta: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_postmeta.table.gz - 86.2 Kb)
+0115.400 (0) Table wp_posts: Total expected rows (approximate): 1017
+0115.591 (0) Table wp_posts: Total rows added: 1017 in 0.19 seconds
+0115.594 (0) Table wp_posts: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_posts.table.gz - 157.4 Kb)
+0115.603 (0) Table wp_term_relationships: Total expected rows (approximate): 1046
+0115.622 (0) Table wp_term_relationships: Total rows added: 1046 in 0.02 seconds
+0115.624 (0) Table wp_term_relationships: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_term_relationships.table.gz - 4.1 Kb)
+0115.633 (0) Table wp_term_taxonomy: Total expected rows (approximate): 116
+0115.641 (0) Table wp_term_taxonomy: Total rows added: 116 in 0.01 seconds
+0115.644 (0) Table wp_term_taxonomy: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_term_taxonomy.table.gz - 1.3 Kb)
+0115.652 (0) Table wp_terms: Total expected rows (approximate): 106
+0115.659 (0) Table wp_terms: Total rows added: 106 in 0.00 seconds
+0115.661 (0) Table wp_terms: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_terms.table.gz - 2.1 Kb)
+0115.674 (0) Table wp_cntctfrm_field: Total expected rows (approximate): 13
+0115.685 (0) Table wp_cntctfrm_field: Total rows added: 13 in 0.01 seconds
+0115.688 (0) Table wp_cntctfrm_field: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_cntctfrm_field.table.gz - 0.4 Kb)
+0115.696 (0) Table wp_eo_events: Total expected rows (approximate): 14
+0115.702 (0) Table wp_eo_events: Total rows added: 14 in 0.00 seconds
+0115.704 (0) Table wp_eo_events: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_eo_events.table.gz - 0.6 Kb)
+0115.712 (0) Table wp_eo_venuemeta: Total expected rows (approximate): 61
+0115.718 (0) Table wp_eo_venuemeta: Total rows added: 61 in 0.00 seconds
+0115.720 (0) Table wp_eo_venuemeta: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_eo_venuemeta.table.gz - 1.1 Kb)
+0115.728 (0) Table wp_facetwp_index: Total expected rows (approximate): 687
+0115.763 (0) Table wp_facetwp_index: Total rows added: 687 in 0.03 seconds
+0115.766 (0) Table wp_facetwp_index: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_facetwp_index.table.gz - 12.3 Kb)
+0115.779 (0) Table wp_icl_content_status: Total expected rows (approximate): 0
+0115.783 (0) Table wp_icl_content_status: Total rows added: 0 in 0.00 seconds
+0115.786 (0) Table wp_icl_content_status: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_content_status.table.gz - 0.3 Kb)
+0115.796 (0) Table wp_icl_core_status: Total expected rows (approximate): 0
+0115.801 (0) Table wp_icl_core_status: Total rows added: 0 in 0.00 seconds
+0115.803 (0) Table wp_icl_core_status: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_core_status.table.gz - 0.3 Kb)
+0115.811 (0) Table wp_icl_flags: Total expected rows (approximate): 64
+0115.818 (0) Table wp_icl_flags: Total rows added: 64 in 0.00 seconds
+0115.820 (0) Table wp_icl_flags: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_flags.table.gz - 0.8 Kb)
+0115.829 (0) Table wp_icl_languages: Total expected rows (approximate): 64
+0115.836 (0) Table wp_icl_languages: Total rows added: 64 in 0.01 seconds
+0115.839 (0) Table wp_icl_languages: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_languages.table.gz - 1.5 Kb)
+0115.847 (0) Table wp_icl_languages_translations: Total expected rows (approximate): 4096
+0115.966 (0) Table wp_icl_languages_translations: Total rows added: 4096 in 0.12 seconds
+0115.969 (0) Table wp_icl_languages_translations: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_languages_translations.table.gz - 31.9 Kb)
+0115.982 (0) Table wp_icl_locale_map: Total expected rows (approximate): 4
+0115.987 (0) Table wp_icl_locale_map: Total rows added: 4 in 0.00 seconds
+0115.989 (0) Table wp_icl_locale_map: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_locale_map.table.gz - 0.3 Kb)
+0116.002 (0) Table wp_icl_message_status: Total expected rows (approximate): 0
+0116.007 (0) Table wp_icl_message_status: Total rows added: 0 in 0.00 seconds
+0116.009 (0) Table wp_icl_message_status: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_message_status.table.gz - 0.4 Kb)
+0116.020 (0) Table wp_icl_node: Total expected rows (approximate): 0
+0116.028 (0) Table wp_icl_node: Total rows added: 0 in 0.01 seconds
+0116.031 (0) Table wp_icl_node: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_node.table.gz - 0.3 Kb)
+0116.044 (0) Table wp_icl_reminders: Total expected rows (approximate): 0
+0116.048 (0) Table wp_icl_reminders: Total rows added: 0 in 0.00 seconds
+0116.056 (0) Table wp_icl_reminders: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_reminders.table.gz - 0.3 Kb)
+0116.073 (0) Table wp_icl_string_positions: Total expected rows (approximate): 52
+0116.085 (0) Table wp_icl_string_positions: Total rows added: 52 in 0.01 seconds
+0116.088 (0) Table wp_icl_string_positions: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_positions.table.gz - 1 Kb)
+0116.101 (0) Table wp_icl_string_status: Total expected rows (approximate): 0
+0116.105 (0) Table wp_icl_string_status: Total rows added: 0 in 0.00 seconds
+0116.108 (0) Table wp_icl_string_status: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_status.table.gz - 0.3 Kb)
+0116.116 (0) Table wp_icl_string_translations: Total expected rows (approximate): 13
+0116.121 (0) Table wp_icl_string_translations: Total rows added: 13 in 0.00 seconds
+0116.124 (0) Table wp_icl_string_translations: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_translations.table.gz - 0.7 Kb)
+0116.132 (0) Table wp_icl_strings: Total expected rows (approximate): 88
+0116.141 (0) Table wp_icl_strings: Total rows added: 88 in 0.01 seconds
+0116.144 (0) Table wp_icl_strings: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_strings.table.gz - 3.4 Kb)
+0116.159 (0) Table wp_icl_translate: Total expected rows (approximate): 453
+0116.307 (0) Table wp_icl_translate: Total rows added: 453 in 0.14 seconds
+0116.312 (0) Table wp_icl_translate: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translate.table.gz - 142.3 Kb)
+0116.327 (0) Table wp_icl_translate_job: Total expected rows (approximate): 87
+0116.334 (0) Table wp_icl_translate_job: Total rows added: 87 in 0.00 seconds
+0116.337 (0) Table wp_icl_translate_job: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translate_job.table.gz - 0.8 Kb)
+0116.347 (0) Table wp_icl_translation_status: Total expected rows (approximate): 67
+0116.388 (0) Table wp_icl_translation_status: Total rows added: 67 in 0.04 seconds
+0116.391 (0) Table wp_icl_translation_status: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translation_status.table.gz - 57.2 Kb)
+0116.401 (0) Table wp_icl_translations: Total expected rows (approximate): 400
+0116.421 (0) Table wp_icl_translations: Total rows added: 400 in 0.02 seconds
+0116.425 (0) Table wp_icl_translations: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translations.table.gz - 3.8 Kb)
+0116.438 (0) Table wp_swp_cf: Total expected rows (approximate): 2329
+0116.516 (0) Table wp_swp_cf: Total rows added: 2329 in 0.07 seconds
+0116.519 (0) Table wp_swp_cf: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_cf.table.gz - 16.4 Kb)
+0116.533 (0) Table wp_swp_index: Total expected rows (approximate): 24679
+0116.691 (0) Table wp_swp_index: binary mysqldump finished (writes: 36) in 0.16 seconds
+0116.696 (0) Table wp_swp_index: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_index.table.gz - 126.4 Kb)
+0116.714 (0) Table wp_swp_log: Total expected rows (approximate): 561
+0116.754 (0) Table wp_swp_log: Total rows added: 561 in 0.04 seconds
+0116.758 (0) Table wp_swp_log: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_log.table.gz - 8.5 Kb)
+0116.776 (0) Table wp_swp_tax: Total expected rows (approximate): 1044
+0116.858 (0) Table wp_swp_tax: Total rows added: 1044 in 0.08 seconds
+0116.861 (0) Table wp_swp_tax: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_tax.table.gz - 6.1 Kb)
+0116.878 (0) Table wp_swp_terms: Total expected rows (approximate): 6534
+0117.106 (0) Table wp_swp_terms: Total rows added: 6534 in 0.22 seconds
+0117.109 (0) Table wp_swp_terms: finishing file (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_terms.table.gz - 87.6 Kb)
+0117.117 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_options.table.gz (1/37): adding to final database dump
+0117.137 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_users.table.gz (2/37): adding to final database dump
+0117.140 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_usermeta.table.gz (3/37): adding to final database dump
+0117.146 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_commentmeta.table.gz (4/37): adding to final database dump
+0117.148 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_comments.table.gz (5/37): adding to final database dump
+0117.151 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_links.table.gz (6/37): adding to final database dump
+0117.154 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_postmeta.table.gz (7/37): adding to final database dump
+0117.223 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_posts.table.gz (8/37): adding to final database dump
+0117.291 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_term_relationships.table.gz (9/37): adding to final database dump
+0117.300 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_term_taxonomy.table.gz (10/37): adding to final database dump
+0117.305 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_terms.table.gz (11/37): adding to final database dump
+0117.309 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_cntctfrm_field.table.gz (12/37): adding to final database dump
+0117.312 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_eo_events.table.gz (13/37): adding to final database dump
+0117.315 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_eo_venuemeta.table.gz (14/37): adding to final database dump
+0117.319 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_facetwp_index.table.gz (15/37): adding to final database dump
+0117.330 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_content_status.table.gz (16/37): adding to final database dump
+0117.333 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_core_status.table.gz (17/37): adding to final database dump
+0117.336 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_flags.table.gz (18/37): adding to final database dump
+0117.340 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_languages.table.gz (19/37): adding to final database dump
+0117.343 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_languages_translations.table.gz (20/37): adding to final database dump
+0117.383 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_locale_map.table.gz (21/37): adding to final database dump
+0117.386 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_message_status.table.gz (22/37): adding to final database dump
+0117.389 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_node.table.gz (23/37): adding to final database dump
+0117.392 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_reminders.table.gz (24/37): adding to final database dump
+0117.395 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_positions.table.gz (25/37): adding to final database dump
+0117.399 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_status.table.gz (26/37): adding to final database dump
+0117.402 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_string_translations.table.gz (27/37): adding to final database dump
+0117.405 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_strings.table.gz (28/37): adding to final database dump
+0117.409 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translate.table.gz (29/37): adding to final database dump
+0117.464 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translate_job.table.gz (30/37): adding to final database dump
+0117.468 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translation_status.table.gz (31/37): adding to final database dump
+0117.488 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_icl_translations.table.gz (32/37): adding to final database dump
+0117.496 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_cf.table.gz (33/37): adding to final database dump
+0117.518 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_index.table.gz (34/37): adding to final database dump
+0117.595 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_log.table.gz (35/37): adding to final database dump
+0117.603 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_tax.table.gz (36/37): adding to final database dump
+0117.615 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db-table-wp_swp_terms.table.gz (37/37): adding to final database dump
+0117.695 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz: finished writing out complete database file (848 Kb)
+0117.712 (0) Total database tables backed up: 37 (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz, size: 873533, checksum (SHA1): 55657223087758e1baf74a16b1d2b8647a1ee40e)
+0117.717 (0) Saving backup history
+0117.727 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0117.729 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0117.732 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0117.734 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0117.736 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip: others: This file has not yet been successfully uploaded: will queue
+0117.738 (0) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz: db: This file has not yet been successfully uploaded: will queue
+0117.745 (0) Requesting upload of the files that have not yet been successfully uploaded (6)
+0117.752 (0) Cloud backup selection (1/1): dropbox (last)
+0117.754 (0) Beginning dispatch of backup to remote (dropbox)
+0117.756 (0) Dropbox: begin cloud upload
+0117.823 (0) Dropbox: access gained
+0119.391 (0) Dropbox quota usage: normal=4355 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040470.3 Mb
+0119.394 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip
+0121.519 (0) Dropbox chunked upload: 5.1 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 1048576)
+0123.362 (0) Dropbox chunked upload: 10.3 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 2097152)
+0125.255 (0) Dropbox chunked upload: 15.4 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 3145728)
+0128.371 (0) Dropbox chunked upload: 20.5 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 4194304)
+0130.041 (0) Dropbox chunked upload: 25.7 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 5242880)
+0131.942 (0) Dropbox chunked upload: 30.8 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 6291456)
+0134.751 (0) Dropbox chunked upload: 36 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 7340032)
+0140.391 (0) Dropbox chunked upload: 41.1 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 8388608)
+0142.195 (0) Dropbox chunked upload: 46.2 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 9437184)
+0144.338 (0) Dropbox chunked upload: 51.4 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 10485760)
+0146.361 (0) Dropbox chunked upload: 56.5 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 11534336)
+0149.277 (0) Dropbox chunked upload: 61.6 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 12582912)
+0150.922 (0) Dropbox chunked upload: 66.8 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 13631488)
+0153.082 (0) Dropbox chunked upload: 71.9 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 14680064)
+0155.307 (0) Dropbox chunked upload: 77.1 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 15728640)
+0158.002 (0) Dropbox chunked upload: 82.2 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 16777216)
+0159.700 (0) Dropbox chunked upload: 87.3 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 17825792)
+0162.639 (0) Dropbox chunked upload: 92.5 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 18874368)
+0164.973 (0) Dropbox chunked upload: 97.6 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 19922944)
+0167.073 (0) Dropbox chunked upload: 100 % uploaded (vKN8wJ3cdXtFOKkKl5S4fQ, 20413275)
+0169.445 (0) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip (9bcd4b6674c16446155c4b6da4fe1f4b)
+0169.464 (0) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip: OK
+0169.467 (0) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip): 19934 Kb in 50s (398 Kb/s)
+0169.696 (0) Dropbox quota usage: normal=4374.5 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040450.8 Mb
+0169.699 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip
+0171.360 (0) Dropbox chunked upload: 27.6 % uploaded (pFapTE3TAtlu3wLwzRYeOA, 1048576)
+0173.377 (0) Dropbox chunked upload: 55.2 % uploaded (pFapTE3TAtlu3wLwzRYeOA, 2097152)
+0175.519 (0) Dropbox chunked upload: 82.8 % uploaded (pFapTE3TAtlu3wLwzRYeOA, 3145728)
+0177.624 (0) Dropbox chunked upload: 100 % uploaded (pFapTE3TAtlu3wLwzRYeOA, 3797162)
+0180.468 (0) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip (a9a727e0c935456c25ed682e7076a8b4)
+0180.478 (0) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip: OK
+0180.481 (0) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip): 3708 Kb in 10s (343 Kb/s)
+0180.695 (0) Dropbox quota usage: normal=4378.1 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040447.2 Mb
+0180.698 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip
+0182.467 (0) Dropbox chunked upload: 0.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 1048576)
+0184.363 (0) Dropbox chunked upload: 0.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 2097152)
+0186.813 (0) Dropbox chunked upload: 0.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 3145728)
+0189.354 (0) Dropbox chunked upload: 0.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 4194304)
+0191.089 (0) Dropbox chunked upload: 1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 5242880)
+0194.074 (0) Dropbox chunked upload: 1.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 6291456)
+0196.206 (0) Dropbox chunked upload: 1.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 7340032)
+0198.564 (0) Dropbox chunked upload: 1.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 8388608)
+0200.219 (0) Dropbox chunked upload: 1.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 9437184)
+0202.162 (0) Dropbox chunked upload: 2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 10485760)
+0204.196 (0) Dropbox chunked upload: 2.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 11534336)
+0208.137 (0) Dropbox chunked upload: 2.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 12582912)
+0209.860 (0) Dropbox chunked upload: 2.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 13631488)
+0211.919 (0) Dropbox chunked upload: 2.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 14680064)
+0214.015 (0) Dropbox chunked upload: 3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 15728640)
+0216.871 (0) Dropbox chunked upload: 3.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 16777216)
+0218.864 (0) Dropbox chunked upload: 3.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 17825792)
+0220.891 (0) Dropbox chunked upload: 3.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 18874368)
+0223.477 (0) Dropbox chunked upload: 3.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 19922944)
+0225.889 (0) Dropbox chunked upload: 4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 20971520)
+0227.571 (0) Dropbox chunked upload: 4.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 22020096)
+0229.492 (0) Dropbox chunked upload: 4.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 23068672)
+0231.578 (0) Dropbox chunked upload: 4.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 24117248)
+0234.699 (0) Dropbox chunked upload: 4.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 25165824)
+0236.289 (0) Dropbox chunked upload: 5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 26214400)
+0238.069 (0) Dropbox chunked upload: 5.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 27262976)
+0240.336 (0) Dropbox chunked upload: 5.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 28311552)
+0243.596 (0) Dropbox chunked upload: 5.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 29360128)
+0245.674 (0) Dropbox chunked upload: 5.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 30408704)
+0247.899 (0) Dropbox chunked upload: 6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 31457280)
+0250.184 (0) Dropbox chunked upload: 6.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 32505856)
+0253.134 (0) Dropbox chunked upload: 6.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 33554432)
+0255.210 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.216 (0) Rescheduling resumption 1: moving to 345 seconds from now (1436908908)
+0255.225 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.228 (0) Dropbox chunked upload: 6.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 34603008)
+0257.637 (0) Dropbox chunked upload: 6.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 35651584)
+0259.994 (0) Dropbox chunked upload: 7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 36700160)
+0263.311 (0) Dropbox chunked upload: 7.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 37748736)
+0265.229 (0) Dropbox chunked upload: 7.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 38797312)
+0267.285 (0) Dropbox chunked upload: 7.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 39845888)
+0269.548 (0) Dropbox chunked upload: 7.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 40894464)
+0273.697 (0) Dropbox chunked upload: 8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 41943040)
+0275.771 (0) Dropbox chunked upload: 8.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 42991616)
+0277.563 (0) Dropbox chunked upload: 8.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 44040192)
+0279.754 (0) Dropbox chunked upload: 8.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 45088768)
+0285.162 (0) Dropbox chunked upload: 8.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 46137344)
+0287.039 (0) Dropbox chunked upload: 9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 47185920)
+0288.985 (0) Dropbox chunked upload: 9.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 48234496)
+0291.255 (0) Dropbox chunked upload: 9.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 49283072)
+0294.983 (0) Dropbox chunked upload: 9.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 50331648)
+0296.894 (0) Dropbox chunked upload: 9.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 51380224)
+0298.948 (0) Dropbox chunked upload: 10 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 52428800)
+0301.045 (0) Dropbox chunked upload: 10.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 53477376)
+0304.337 (0) Dropbox chunked upload: 10.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 54525952)
+0307.171 (0) Dropbox chunked upload: 10.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 55574528)
+0309.044 (0) Dropbox chunked upload: 10.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 56623104)
+0311.301 (0) Dropbox chunked upload: 11 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 57671680)
+0315.514 (0) The time we have been running (315.5) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.520 (0) Dropbox chunked upload: 11.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 58720256)
+0317.356 (0) The time we have been running (317.3) is approaching the resumption interval (346) - increasing resumption interval to 348
+0317.361 (0) Dropbox chunked upload: 11.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 59768832)
+0319.224 (0) The time we have been running (319.2) is approaching the resumption interval (348) - increasing resumption interval to 350
+0319.229 (0) Dropbox chunked upload: 11.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 60817408)
+0321.543 (0) The time we have been running (321.5) is approaching the resumption interval (350) - increasing resumption interval to 352
+0321.552 (0) Dropbox chunked upload: 11.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 61865984)
+0324.732 (0) The time we have been running (324.7) is approaching the resumption interval (352) - increasing resumption interval to 355
+0324.737 (0) Dropbox chunked upload: 12 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 62914560)
+0326.526 (0) The time we have been running (326.5) is approaching the resumption interval (355) - increasing resumption interval to 357
+0326.533 (0) Dropbox chunked upload: 12.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 63963136)
+0328.589 (0) The time we have been running (328.5) is approaching the resumption interval (357) - increasing resumption interval to 359
+0328.595 (0) Dropbox chunked upload: 12.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 65011712)
+0330.837 (0) The time we have been running (330.8) is approaching the resumption interval (359) - increasing resumption interval to 361
+0330.842 (0) Dropbox chunked upload: 12.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 66060288)
+0334.072 (0) The time we have been running (334) is approaching the resumption interval (361) - increasing resumption interval to 365
+0334.078 (0) Dropbox chunked upload: 12.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 67108864)
+0336.634 (0) The time we have been running (336.6) is approaching the resumption interval (365) - increasing resumption interval to 367
+0336.640 (0) Dropbox chunked upload: 13 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 68157440)
+0338.618 (0) The time we have been running (338.6) is approaching the resumption interval (367) - increasing resumption interval to 369
+0338.624 (0) Dropbox chunked upload: 13.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 69206016)
+0340.836 (0) The time we have been running (340.8) is approaching the resumption interval (369) - increasing resumption interval to 371
+0340.842 (0) Dropbox chunked upload: 13.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 70254592)
+0345.741 (0) The time we have been running (345.7) is approaching the resumption interval (371) - increasing resumption interval to 376
+0345.746 (0) Dropbox chunked upload: 13.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 71303168)
+0347.464 (0) The time we have been running (347.4) is approaching the resumption interval (376) - increasing resumption interval to 378
+0347.470 (0) Dropbox chunked upload: 13.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 72351744)
+0349.989 (0) The time we have been running (349.9) is approaching the resumption interval (378) - increasing resumption interval to 380
+0349.994 (0) Dropbox chunked upload: 14 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 73400320)
+0352.321 (0) The time we have been running (352.3) is approaching the resumption interval (380) - increasing resumption interval to 383
+0352.328 (0) Dropbox chunked upload: 14.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 74448896)
+0355.434 (0) The time we have been running (355.4) is approaching the resumption interval (383) - increasing resumption interval to 386
+0355.439 (0) Dropbox chunked upload: 14.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 75497472)
+0357.255 (0) The time we have been running (357.2) is approaching the resumption interval (386) - increasing resumption interval to 388
+0357.261 (0) Dropbox chunked upload: 14.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 76546048)
+0360.239 (0) The time we have been running (360.2) is approaching the resumption interval (388) - increasing resumption interval to 391
+0360.244 (0) Dropbox chunked upload: 14.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 77594624)
+0362.424 (0) The time we have been running (362.4) is approaching the resumption interval (391) - increasing resumption interval to 393
+0362.429 (0) Dropbox chunked upload: 15 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 78643200)
+0366.439 (0) The time we have been running (366.4) is approaching the resumption interval (393) - increasing resumption interval to 397
+0366.446 (0) Dropbox chunked upload: 15.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 79691776)
+0368.148 (0) The time we have been running (368.1) is approaching the resumption interval (397) - increasing resumption interval to 399
+0368.154 (0) Dropbox chunked upload: 15.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 80740352)
+0369.968 (0) The time we have been running (369.9) is approaching the resumption interval (399) - increasing resumption interval to 400
+0369.974 (0) Dropbox chunked upload: 15.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 81788928)
+0372.260 (0) The time we have been running (372.2) is approaching the resumption interval (400) - increasing resumption interval to 403
+0372.267 (0) Dropbox chunked upload: 15.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 82837504)
+0377.978 (0) The time we have been running (377.9) is approaching the resumption interval (403) - increasing resumption interval to 408
+0377.985 (0) Dropbox chunked upload: 16 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 83886080)
+0379.837 (0) The time we have been running (379.8) is approaching the resumption interval (408) - increasing resumption interval to 410
+0379.843 (0) Dropbox chunked upload: 16.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 84934656)
+0381.767 (0) The time we have been running (381.7) is approaching the resumption interval (410) - increasing resumption interval to 412
+0381.776 (0) Dropbox chunked upload: 16.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 85983232)
+0383.937 (0) The time we have been running (383.9) is approaching the resumption interval (412) - increasing resumption interval to 414
+0383.943 (0) Dropbox chunked upload: 16.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 87031808)
+0388.609 (0) The time we have been running (388.6) is approaching the resumption interval (414) - increasing resumption interval to 419
+0388.616 (0) Dropbox chunked upload: 16.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 88080384)
+0390.336 (0) The time we have been running (390.3) is approaching the resumption interval (419) - increasing resumption interval to 421
+0390.341 (0) Dropbox chunked upload: 17 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 89128960)
+0392.244 (0) The time we have been running (392.2) is approaching the resumption interval (421) - increasing resumption interval to 423
+0392.253 (0) Dropbox chunked upload: 17.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 90177536)
+0394.314 (0) The time we have been running (394.3) is approaching the resumption interval (423) - increasing resumption interval to 425
+0394.324 (0) Dropbox chunked upload: 17.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 91226112)
+0397.327 (0) The time we have been running (397.3) is approaching the resumption interval (425) - increasing resumption interval to 428
+0397.333 (0) Dropbox chunked upload: 17.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 92274688)
+0399.054 (0) The time we have been running (399) is approaching the resumption interval (428) - increasing resumption interval to 430
+0399.059 (0) Dropbox chunked upload: 17.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 93323264)
+0400.855 (0) The time we have been running (400.8) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.860 (0) Dropbox chunked upload: 18 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 94371840)
+0403.101 (0) The time we have been running (403.1) is approaching the resumption interval (431) - increasing resumption interval to 434
+0403.107 (0) Dropbox chunked upload: 18.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 95420416)
+0410.193 (0) Dropbox chunked upload exception (Dropbox_Exception): Internal Server Error (line: 177, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0410.197 (0) Dropbox error: Internal Server Error
+0410.200 (0) An error condition has occurred for the first time during this job
+0410.420 (0) Dropbox quota usage: normal=4378.1 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040447.2 Mb
+0410.427 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip
+0412.438 (0) The time we have been running (412.4) is approaching the resumption interval (434) - increasing resumption interval to 443
+0412.444 (0) Dropbox chunked upload: 1.9 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 1048576)
+0414.445 (0) The time we have been running (414.4) is approaching the resumption interval (443) - increasing resumption interval to 445
+0414.450 (0) Dropbox chunked upload: 3.7 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 2097152)
+0416.608 (0) The time we have been running (416.6) is approaching the resumption interval (445) - increasing resumption interval to 447
+0416.614 (0) Dropbox chunked upload: 5.6 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 3145728)
+0419.782 (0) The time we have been running (419.7) is approaching the resumption interval (447) - increasing resumption interval to 450
+0419.787 (0) Dropbox chunked upload: 7.5 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 4194304)
+0421.547 (0) The time we have been running (421.5) is approaching the resumption interval (450) - increasing resumption interval to 452
+0421.552 (0) Dropbox chunked upload: 9.3 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 5242880)
+0423.853 (0) The time we have been running (423.8) is approaching the resumption interval (452) - increasing resumption interval to 454
+0423.859 (0) Dropbox chunked upload: 11.2 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 6291456)
+0425.794 (0) The time we have been running (425.8) is approaching the resumption interval (454) - increasing resumption interval to 456
+0425.799 (0) Dropbox chunked upload: 13.1 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 7340032)
+0428.554 (0) The time we have been running (428.5) is approaching the resumption interval (456) - increasing resumption interval to 459
+0428.560 (0) Dropbox chunked upload: 14.9 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 8388608)
+0430.166 (0) The time we have been running (430.1) is approaching the resumption interval (459) - increasing resumption interval to 461
+0430.171 (0) Dropbox chunked upload: 16.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 9437184)
+0431.981 (0) The time we have been running (431.9) is approaching the resumption interval (461) - increasing resumption interval to 462
+0431.987 (0) Dropbox chunked upload: 18.7 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 10485760)
+0434.084 (0) The time we have been running (434) is approaching the resumption interval (462) - increasing resumption interval to 465
+0434.090 (0) Dropbox chunked upload: 20.5 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 11534336)
+0438.204 (0) The time we have been running (438.2) is approaching the resumption interval (465) - increasing resumption interval to 469
+0438.209 (0) Dropbox chunked upload: 22.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 12582912)
+0439.940 (0) The time we have been running (439.9) is approaching the resumption interval (469) - increasing resumption interval to 470
+0439.947 (0) Dropbox chunked upload: 24.3 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 13631488)
+0441.801 (0) The time we have been running (441.8) is approaching the resumption interval (470) - increasing resumption interval to 472
+0441.809 (0) Dropbox chunked upload: 26.1 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 14680064)
+0443.960 (0) The time we have been running (443.9) is approaching the resumption interval (472) - increasing resumption interval to 474
+0443.966 (0) Dropbox chunked upload: 28 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 15728640)
+0446.573 (0) The time we have been running (446.5) is approaching the resumption interval (474) - increasing resumption interval to 477
+0446.579 (0) Dropbox chunked upload: 29.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 16777216)
+0448.315 (0) The time we have been running (448.3) is approaching the resumption interval (477) - increasing resumption interval to 479
+0448.321 (0) Dropbox chunked upload: 31.7 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 17825792)
+0450.327 (0) The time we have been running (450.3) is approaching the resumption interval (479) - increasing resumption interval to 481
+0450.332 (0) Dropbox chunked upload: 33.6 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 18874368)
+0452.438 (0) The time we have been running (452.4) is approaching the resumption interval (481) - increasing resumption interval to 483
+0452.443 (0) Dropbox chunked upload: 35.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 19922944)
+0455.431 (0) The time we have been running (455.4) is approaching the resumption interval (483) - increasing resumption interval to 486
+0455.436 (0) Dropbox chunked upload: 37.3 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 20971520)
+0457.057 (0) The time we have been running (457) is approaching the resumption interval (486) - increasing resumption interval to 488
+0457.062 (0) Dropbox chunked upload: 39.2 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 22020096)
+0459.125 (0) The time we have been running (459.1) is approaching the resumption interval (488) - increasing resumption interval to 490
+0459.131 (0) Dropbox chunked upload: 41 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 23068672)
+0461.066 (0) The time we have been running (461) is approaching the resumption interval (490) - increasing resumption interval to 492
+0461.073 (0) Dropbox chunked upload: 42.9 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 24117248)
+0465.319 (0) The time we have been running (465.3) is approaching the resumption interval (492) - increasing resumption interval to 496
+0465.325 (0) Dropbox chunked upload: 44.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 25165824)
+0466.895 (0) The time we have been running (466.9) is approaching the resumption interval (496) - increasing resumption interval to 497
+0466.902 (0) Dropbox chunked upload: 46.6 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 26214400)
+0468.948 (0) The time we have been running (468.9) is approaching the resumption interval (497) - increasing resumption interval to 499
+0468.953 (0) Dropbox chunked upload: 48.5 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 27262976)
+0471.111 (0) The time we have been running (471.1) is approaching the resumption interval (499) - increasing resumption interval to 502
+0471.116 (0) Dropbox chunked upload: 50.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 28311552)
+0476.271 (0) The time we have been running (476.2) is approaching the resumption interval (502) - increasing resumption interval to 507
+0476.278 (0) Dropbox chunked upload: 52.2 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 29360128)
+0478.031 (0) The time we have been running (478) is approaching the resumption interval (507) - increasing resumption interval to 508
+0478.044 (0) Dropbox chunked upload: 54.1 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 30408704)
+0480.279 (0) The time we have been running (480.2) is approaching the resumption interval (508) - increasing resumption interval to 511
+0480.285 (0) Dropbox chunked upload: 56 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 31457280)
+0482.349 (0) The time we have been running (482.3) is approaching the resumption interval (511) - increasing resumption interval to 513
+0482.355 (0) Dropbox chunked upload: 57.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 32505856)
+0485.361 (0) The time we have been running (485.3) is approaching the resumption interval (513) - increasing resumption interval to 516
+0485.366 (0) Dropbox chunked upload: 59.7 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 33554432)
+0486.981 (0) The time we have been running (486.9) is approaching the resumption interval (516) - increasing resumption interval to 517
+0486.987 (0) Dropbox chunked upload: 61.6 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 34603008)
+0489.080 (0) The time we have been running (489) is approaching the resumption interval (517) - increasing resumption interval to 520
+0489.087 (0) Dropbox chunked upload: 63.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 35651584)
+0491.076 (0) The time we have been running (491) is approaching the resumption interval (520) - increasing resumption interval to 522
+0491.082 (0) Dropbox chunked upload: 65.3 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 36700160)
+0494.169 (0) The time we have been running (494.1) is approaching the resumption interval (522) - increasing resumption interval to 525
+0494.177 (0) Dropbox chunked upload: 67.2 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 37748736)
+0497.011 (0) The time we have been running (497) is approaching the resumption interval (525) - increasing resumption interval to 527
+0497.017 (0) Dropbox chunked upload: 69 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 38797312)
+0498.978 (0) The time we have been running (498.9) is approaching the resumption interval (527) - increasing resumption interval to 529
+0498.987 (0) Dropbox chunked upload: 70.9 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 39845888)
+0501.345 (0) The time we have been running (501.3) is approaching the resumption interval (529) - increasing resumption interval to 532
+0501.351 (0) Dropbox chunked upload: 72.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 40894464)
+0516.097 (0) The time we have been running (516.1) is approaching the resumption interval (532) - increasing resumption interval to 547
+0516.102 (0) Dropbox chunked upload: 74.6 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 41943040)
+0518.037 (0) The time we have been running (518) is approaching the resumption interval (547) - increasing resumption interval to 548
+0518.043 (0) Dropbox chunked upload: 76.5 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 42991616)
+0520.004 (0) The time we have been running (520) is approaching the resumption interval (548) - increasing resumption interval to 550
+0520.009 (0) Dropbox chunked upload: 78.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 44040192)
+0522.206 (0) The time we have been running (522.2) is approaching the resumption interval (550) - increasing resumption interval to 553
+0522.212 (0) Dropbox chunked upload: 80.2 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 45088768)
+0525.266 (0) The time we have been running (525.2) is approaching the resumption interval (553) - increasing resumption interval to 556
+0525.273 (0) Dropbox chunked upload: 82.1 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 46137344)
+0526.929 (0) The time we have been running (526.9) is approaching the resumption interval (556) - increasing resumption interval to 557
+0526.934 (0) Dropbox chunked upload: 84 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 47185920)
+0528.856 (0) The time we have been running (528.8) is approaching the resumption interval (557) - increasing resumption interval to 559
+0528.863 (0) Dropbox chunked upload: 85.8 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 48234496)
+0530.913 (0) The time we have been running (530.9) is approaching the resumption interval (559) - increasing resumption interval to 561
+0530.919 (0) Dropbox chunked upload: 87.7 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 49283072)
+0533.973 (0) The time we have been running (533.9) is approaching the resumption interval (561) - increasing resumption interval to 564
+0533.979 (0) Dropbox chunked upload: 89.5 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 50331648)
+0535.768 (0) The time we have been running (535.7) is approaching the resumption interval (564) - increasing resumption interval to 566
+0535.774 (0) Dropbox chunked upload: 91.4 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 51380224)
+0537.704 (0) The time we have been running (537.7) is approaching the resumption interval (566) - increasing resumption interval to 568
+0537.711 (0) Dropbox chunked upload: 93.3 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 52428800)
+0540.442 (0) The time we have been running (540.4) is approaching the resumption interval (568) - increasing resumption interval to 571
+0540.458 (0) Dropbox chunked upload: 95.1 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 53477376)
+0543.909 (0) The time we have been running (543.9) is approaching the resumption interval (571) - increasing resumption interval to 574
+0543.915 (0) Dropbox chunked upload: 97 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 54525952)
+0545.678 (0) The time we have been running (545.6) is approaching the resumption interval (574) - increasing resumption interval to 576
+0545.683 (0) Dropbox chunked upload: 98.9 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 55574528)
+0548.247 (0) The time we have been running (548.2) is approaching the resumption interval (576) - increasing resumption interval to 579
+0548.253 (0) Dropbox chunked upload: 100 % uploaded (YQ3gJcWk0s9UkpAB4PRsLw, 56205554)
+0550.104 (0) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip (820cfe0db8f07b57666426ae27c84c2a)
+0550.139 (0) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip: OK
+0550.143 (0) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip): 54888 Kb in 139s (392 Kb/s)
+0550.361 (0) Dropbox quota usage: normal=4431.7 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040393.6 Mb
+0550.364 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip
+0551.202 (0) The time we have been running (551.2) is approaching the resumption interval (579) - increasing resumption interval to 582
+0551.207 (0) Dropbox chunked upload: 100 % uploaded (_uNOy7vXZPo-4LH-eGQTmA, 9831)
+0552.430 (0) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip (94a2cdbfe6d6f24fbde2852a0d9bf306)
+0552.439 (0) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip: OK
+0552.441 (0) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip): 9 Kb in 2s (4 Kb/s)
+0552.665 (0) Dropbox quota usage: normal=4431.7 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040393.6 Mb
+0552.668 (0) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz
+0554.266 (0) The time we have been running (554.2) is approaching the resumption interval (582) - increasing resumption interval to 585
+0554.284 (0) Dropbox chunked upload: 100 % uploaded (K8joWxJcARUX1nsiXKmjww, 873533)
+0556.926 (0) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz (4ade8c6cf32a4c3397004fcb8348b183)
+0556.935 (0) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz: OK
+0556.938 (0) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz): 853 Kb in 4s (199 Kb/s)
+0556.943 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0556.946 (0) Number of backup sets in history: 4
+0556.949 (0) Examining backup set with datestamp: 1436908307 (Jul 14 2015 21:11:47)
+0556.951 (0) 1436908307: db: this set includes a database (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz); db count is now 1
+0556.957 (0) The time we have been running (556.9) is approaching the resumption interval (585) - increasing resumption interval to 587
+0556.963 (0) 1436908307: this backup set remains non-empty (1/1); will retain in history
+0556.966 (0) Examining backup set with datestamp: 1436821588 (Jul 13 2015 21:06:28)
+0556.969 (0) 1436821588: db: this set includes a database (backup_2015-07-13-2106_Earth_Innovation_Institute_87e7b5052553-db.gz); db count is now 2
+0556.975 (0) 1436821588: this backup set remains non-empty (1/1); will retain in history
+0556.977 (0) Examining backup set with datestamp: 1436734831 (Jul 12 2015 21:00:31)
+0556.980 (0) 1436734831: db: this set includes a database (backup_2015-07-12-2100_Earth_Innovation_Institute_07d49b6d5c8a-db.gz); db count is now 3
+0556.985 (0) 1436734831: this backup set remains non-empty (1/1); will retain in history
+0556.988 (0) Examining backup set with datestamp: 1436649403 (Jul 11 2015 21:16:43)
+0556.990 (0) 1436649403: db: this set includes a database (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-db.gz); db count is now 4
+0556.993 (0) 1436649403: db: over retain limit (3); will delete this database
+0556.995 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-db.gz, service=dropbox
+0556.998 (0) Deleting local copy (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-db.gz)
+0557.000 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-db.gz
+0557.214 (0) Dropbox error: Path '/backup_2015-07-11-2116_earth_innovation_institute_2afca31cf63a-db.gz' not found (line: 171, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0557.221 (0) The time we have been running (557.2) is approaching the resumption interval (587) - increasing resumption interval to 588
+0557.226 (0) plugins: 1436649403: over retain limit (3); will delete this file (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-plugins.zip)
+0557.229 (0) themes: 1436649403: over retain limit (3); will delete this file (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-themes.zip)
+0557.231 (0) uploads: 1436649403: over retain limit (3); will delete this file (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads.zip)
+0557.233 (0) uploads: 1436649403: over retain limit (3); will delete this file (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads2.zip)
+0557.236 (0) others: 1436649403: over retain limit (3); will delete this file (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-others.zip)
+0557.238 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-plugins.zip, service=dropbox
+0557.240 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-themes.zip, service=dropbox
+0557.243 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads.zip, service=dropbox
+0557.245 (0) Deleting local copy (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads.zip)
+0557.260 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads2.zip, service=dropbox
+0557.263 (0) Deleting local copy (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads2.zip)
+0557.266 (0) Delete file: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-others.zip, service=dropbox
+0557.271 (0) Deleting local copy (backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-others.zip)
+0557.273 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-plugins.zip
+0557.719 (0) Dropbox: delete succeeded
+0557.723 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-themes.zip
+0558.099 (0) Dropbox: delete succeeded
+0558.102 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads.zip
+0558.352 (0) Dropbox error: Path '/backup_2015-07-11-2116_earth_innovation_institute_2afca31cf63a-uploads.zip' not found (line: 171, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0558.355 (0) Dropbox: delete succeeded
+0558.358 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-uploads2.zip
+0558.561 (0) Dropbox error: Path '/backup_2015-07-11-2116_earth_innovation_institute_2afca31cf63a-uploads2.zip' not found (line: 171, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0558.564 (0) Dropbox: delete succeeded
+0558.567 (0) Dropbox: request deletion: backup_2015-07-11-2116_Earth_Innovation_Institute_2afca31cf63a-others.zip
+0558.789 (0) Dropbox error: Path '/backup_2015-07-11-2116_earth_innovation_institute_2afca31cf63a-others.zip' not found (line: 171, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+0558.792 (0) Dropbox: delete succeeded
+0558.798 (0) The time we have been running (558.8) is approaching the resumption interval (588) - increasing resumption interval to 589
+0558.805 (0) 1436649403: this backup set is now empty; will remove from history
+0558.808 (0) 1436649403: deleting log file (log.2afca31cf63a.txt)
+0558.837 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0558.844 (0) Resume backup (a75438fc8560, 0): finish run
+0558.853 (0) Decremented the semaphore (fd) by 1
+0558.857 (0) Semaphore (fd) unlocked
+0558.861 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0558.870 (0) Rescheduling resumption 1: moving to 120 seconds from now (1436908986)
+0558.877 (0) The backup has not finished; a resumption is scheduled
+1050.828 (1) Opened log file at time: Tue, 14 Jul 2015 21:29:18 +0000 on http://earthinnovation.org
+1050.830 (1) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 32.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1051.230 (1) Free space on disk containing Updraft's temporary directory: 438055.8 Mb
+1051.240 (1) Backup run: resumption=1, nonce=a75438fc8560, begun at=1436908307 (1052s ago), job type=backup, previous check-in=558.8s
+1051.246 (1) Scheduling a resumption (2) after 589 seconds (1436909948) in case this run gets aborted
+1051.265 (1) Checking if we have a zip executable available
+1051.270 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1051.273 (1) Creation of backups of directories: already finished
+1051.275 (1) Saving backup status to database (elements: 9)
+1051.285 (1) Database dump (WordPress DB): Creation was completed already
+1051.288 (1) Saving backup history
+1051.296 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip: plugins: This file has already been successfully uploaded
+1051.300 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip: themes: This file has already been successfully uploaded
+1051.303 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1051.306 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip: uploads: This file has already been successfully uploaded
+1051.308 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip: others: This file has already been successfully uploaded
+1051.310 (1) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz: db: This file has already been successfully uploaded
+1051.320 (1) Requesting upload of the files that have not yet been successfully uploaded (1)
+1051.325 (1) Cloud backup selection (1/1): dropbox (last)
+1051.330 (1) Beginning dispatch of backup to remote (dropbox)
+1051.335 (1) Dropbox: begin cloud upload
+1051.343 (1) Dropbox: access gained
+1051.576 (1) Dropbox quota usage: normal=4409.5 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040415.9 Mb
+1051.583 (1) This is a resumption: 95420416 bytes had already been uploaded
+1051.589 (1) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip
+1054.773 (1) Dropbox chunked upload: 18.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 96468992)
+1056.334 (1) Dropbox chunked upload: 18.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 97517568)
+1058.274 (1) Dropbox chunked upload: 18.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 98566144)
+1060.266 (1) Dropbox chunked upload: 19 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 99614720)
+1063.173 (1) Dropbox chunked upload: 19.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 100663296)
+1065.131 (1) Dropbox chunked upload: 19.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 101711872)
+1067.052 (1) Dropbox chunked upload: 19.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 102760448)
+1069.244 (1) Dropbox chunked upload: 19.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 103809024)
+1072.240 (1) Dropbox chunked upload: 20 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 104857600)
+1074.062 (1) Dropbox chunked upload: 20.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 105906176)
+1075.946 (1) Dropbox chunked upload: 20.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 106954752)
+1077.957 (1) Dropbox chunked upload: 20.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 108003328)
+1081.279 (1) Dropbox chunked upload: 20.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 109051904)
+1083.071 (1) Dropbox chunked upload: 21 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 110100480)
+1085.106 (1) Dropbox chunked upload: 21.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 111149056)
+1087.216 (1) Dropbox chunked upload: 21.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 112197632)
+1094.540 (1) Dropbox chunked upload: 21.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 113246208)
+1096.335 (1) Dropbox chunked upload: 21.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 114294784)
+1098.319 (1) Dropbox chunked upload: 22 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 115343360)
+1100.490 (1) Dropbox chunked upload: 22.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 116391936)
+1104.885 (1) Dropbox chunked upload: 22.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 117440512)
+1106.496 (1) Dropbox chunked upload: 22.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 118489088)
+1108.382 (1) Dropbox chunked upload: 22.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 119537664)
+1110.298 (1) Dropbox chunked upload: 23 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 120586240)
+1115.539 (1) Dropbox chunked upload: 23.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 121634816)
+1117.421 (1) Dropbox chunked upload: 23.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 122683392)
+1119.466 (1) Dropbox chunked upload: 23.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 123731968)
+1121.575 (1) Dropbox chunked upload: 23.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 124780544)
+1124.083 (1) Dropbox chunked upload: 24 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 125829120)
+1126.068 (1) Dropbox chunked upload: 24.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 126877696)
+1127.869 (1) Dropbox chunked upload: 24.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 127926272)
+1129.990 (1) Dropbox chunked upload: 24.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 128974848)
+1132.425 (1) Dropbox chunked upload: 24.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 130023424)
+1134.088 (1) Dropbox chunked upload: 25 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 131072000)
+1136.256 (1) Dropbox chunked upload: 25.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 132120576)
+1138.315 (1) Dropbox chunked upload: 25.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 133169152)
+1140.993 (1) Dropbox chunked upload: 25.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 134217728)
+1142.709 (1) Dropbox chunked upload: 25.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 135266304)
+1144.579 (1) Dropbox chunked upload: 26 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 136314880)
+1147.181 (1) Dropbox chunked upload: 26.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 137363456)
+1149.954 (1) Dropbox chunked upload: 26.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 138412032)
+1151.621 (1) Dropbox chunked upload: 26.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 139460608)
+1153.835 (1) Dropbox chunked upload: 26.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 140509184)
+1156.062 (1) Dropbox chunked upload: 27 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 141557760)
+1158.638 (1) Dropbox chunked upload: 27.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 142606336)
+1160.378 (1) Dropbox chunked upload: 27.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 143654912)
+1162.338 (1) Dropbox chunked upload: 27.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 144703488)
+1165.405 (1) Dropbox chunked upload: 27.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 145752064)
+1167.863 (1) Dropbox chunked upload: 28 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 146800640)
+1169.534 (1) Dropbox chunked upload: 28.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 147849216)
+1175.053 (1) Dropbox chunked upload: 28.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 148897792)
+1177.054 (1) Dropbox chunked upload: 28.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 149946368)
+1179.480 (1) Dropbox chunked upload: 28.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 150994944)
+1181.240 (1) Dropbox chunked upload: 29 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 152043520)
+1183.320 (1) Dropbox chunked upload: 29.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 153092096)
+1185.426 (1) Dropbox chunked upload: 29.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 154140672)
+1187.965 (1) Dropbox chunked upload: 29.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 155189248)
+1189.851 (1) Dropbox chunked upload: 29.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 156237824)
+1192.263 (1) Dropbox chunked upload: 30 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 157286400)
+1194.328 (1) Dropbox chunked upload: 30.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 158334976)
+1197.112 (1) Dropbox chunked upload: 30.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 159383552)
+1198.947 (1) Dropbox chunked upload: 30.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 160432128)
+1200.889 (1) Dropbox chunked upload: 30.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 161480704)
+1203.138 (1) Dropbox chunked upload: 31 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 162529280)
+1205.931 (1) Dropbox chunked upload: 31.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 163577856)
+1207.527 (1) Dropbox chunked upload: 31.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 164626432)
+1209.379 (1) Dropbox chunked upload: 31.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 165675008)
+1211.441 (1) Dropbox chunked upload: 31.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 166723584)
+1215.029 (1) Dropbox chunked upload: 32 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 167772160)
+1216.883 (1) Dropbox chunked upload: 32.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 168820736)
+1218.883 (1) Dropbox chunked upload: 32.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 169869312)
+1221.427 (1) Dropbox chunked upload: 32.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 170917888)
+1224.687 (1) Dropbox chunked upload: 32.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 171966464)
+1226.504 (1) Dropbox chunked upload: 33 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 173015040)
+1228.404 (1) Dropbox chunked upload: 33.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 174063616)
+1231.355 (1) Dropbox chunked upload: 33.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 175112192)
+1237.974 (1) Dropbox chunked upload: 33.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 176160768)
+1239.770 (1) Dropbox chunked upload: 33.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 177209344)
+1241.725 (1) Dropbox chunked upload: 34 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 178257920)
+1244.780 (1) Dropbox chunked upload: 34.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 179306496)
+1248.645 (1) Dropbox chunked upload: 34.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 180355072)
+1250.539 (1) Dropbox chunked upload: 34.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 181403648)
+1252.600 (1) Dropbox chunked upload: 34.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 182452224)
+1255.698 (1) Dropbox chunked upload: 35 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 183500800)
+1259.210 (1) Dropbox chunked upload: 35.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 184549376)
+1261.069 (1) Dropbox chunked upload: 35.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 185597952)
+1263.014 (1) Dropbox chunked upload: 35.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 186646528)
+1265.359 (1) Dropbox chunked upload: 35.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 187695104)
+1268.630 (1) Dropbox chunked upload: 36 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 188743680)
+1270.433 (1) Dropbox chunked upload: 36.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 189792256)
+1272.349 (1) Dropbox chunked upload: 36.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 190840832)
+1274.623 (1) Dropbox chunked upload: 36.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 191889408)
+1278.105 (1) Dropbox chunked upload: 36.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 192937984)
+1279.861 (1) Dropbox chunked upload: 37 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 193986560)
+1281.923 (1) Dropbox chunked upload: 37.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 195035136)
+1284.127 (1) Dropbox chunked upload: 37.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 196083712)
+1287.400 (1) Dropbox chunked upload: 37.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 197132288)
+1289.072 (1) Dropbox chunked upload: 37.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 198180864)
+1291.024 (1) Dropbox chunked upload: 38 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 199229440)
+1293.398 (1) Dropbox chunked upload: 38.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 200278016)
+1297.726 (1) Dropbox chunked upload: 38.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 201326592)
+1299.834 (1) Dropbox chunked upload: 38.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 202375168)
+1301.688 (1) Dropbox chunked upload: 38.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 203423744)
+1304.140 (1) Dropbox chunked upload: 39 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 204472320)
+1306.881 (1) Dropbox chunked upload: 39.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 205520896)
+1308.961 (1) Dropbox chunked upload: 39.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 206569472)
+1310.791 (1) Dropbox chunked upload: 39.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 207618048)
+1313.076 (1) Dropbox chunked upload: 39.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 208666624)
+1315.902 (1) Dropbox chunked upload: 40 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 209715200)
+1318.019 (1) Dropbox chunked upload: 40.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 210763776)
+1320.319 (1) Dropbox chunked upload: 40.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 211812352)
+1322.377 (1) Dropbox chunked upload: 40.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 212860928)
+1325.785 (1) Dropbox chunked upload: 40.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 213909504)
+1327.461 (1) Dropbox chunked upload: 41 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 214958080)
+1329.321 (1) Dropbox chunked upload: 41.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 216006656)
+1331.401 (1) Dropbox chunked upload: 41.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 217055232)
+1335.196 (1) Dropbox chunked upload: 41.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 218103808)
+1337.231 (1) Dropbox chunked upload: 41.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 219152384)
+1339.164 (1) Dropbox chunked upload: 42 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 220200960)
+1341.281 (1) Dropbox chunked upload: 42.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 221249536)
+1344.479 (1) Dropbox chunked upload: 42.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 222298112)
+1346.267 (1) Dropbox chunked upload: 42.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 223346688)
+1348.303 (1) Dropbox chunked upload: 42.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 224395264)
+1350.661 (1) Dropbox chunked upload: 43 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 225443840)
+1353.735 (1) Dropbox chunked upload: 43.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 226492416)
+1355.451 (1) Dropbox chunked upload: 43.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 227540992)
+1356.421 (1) Dropbox chunked upload exception (Dropbox_CurlException): Empty reply from server (line: 135, file: /home1/earthin7/public_html/wp-content/plugins/updraftplus/includes/Dropbox/OAuth/Consumer/Curl.php)
+1356.424 (1) Dropbox error: Empty reply from server
+1356.427 (1) An error condition has occurred for the first time during this job
+1356.432 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+1356.435 (1) Number of backup sets in history: 3
+1356.437 (1) Examining backup set with datestamp: 1436908307 (Jul 14 2015 21:11:47)
+1356.439 (1) 1436908307: db: this set includes a database (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz); db count is now 1
+1356.444 (1) 1436908307: this backup set remains non-empty (1/1); will retain in history
+1356.446 (1) Examining backup set with datestamp: 1436821588 (Jul 13 2015 21:06:28)
+1356.448 (1) 1436821588: db: this set includes a database (backup_2015-07-13-2106_Earth_Innovation_Institute_87e7b5052553-db.gz); db count is now 2
+1356.452 (1) 1436821588: this backup set remains non-empty (1/1); will retain in history
+1356.454 (1) Examining backup set with datestamp: 1436734831 (Jul 12 2015 21:00:31)
+1356.457 (1) 1436734831: db: this set includes a database (backup_2015-07-12-2100_Earth_Innovation_Institute_07d49b6d5c8a-db.gz); db count is now 3
+1356.461 (1) 1436734831: this backup set remains non-empty (1/1); will retain in history
+1356.463 (1) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1356.466 (1) Resume backup (a75438fc8560, 1): finish run
+1356.470 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1356.475 (1) The backup has not finished; a resumption is scheduled
+1769.125 (2) Opened log file at time: Tue, 14 Jul 2015 21:41:17 +0000 on http://earthinnovation.org
+1769.129 (2) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.2.2 PHP: 5.4.40 (Linux box1001.bluehost.com 3.12.35.1418868052 #1 SMP Wed Dec 17 20:04:02 CST 2014 x86_64) MySQL: 5.5.42-37.1-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.5M | 32.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+1769.484 (2) Free space on disk containing Updraft's temporary directory: 438051.2 Mb
+1769.490 (2) Backup run: resumption=2, nonce=a75438fc8560, begun at=1436908307 (1770s ago), job type=backup, previous check-in=305.6s
+1769.495 (2) Scheduling a resumption (3) after 589 seconds (1436910666) in case this run gets aborted
+1769.508 (2) Checking if we have a zip executable available
+1769.513 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1769.515 (2) Creation of backups of directories: already finished
+1769.517 (2) Saving backup status to database (elements: 9)
+1769.523 (2) Database dump (WordPress DB): Creation was completed already
+1769.526 (2) Saving backup history
+1769.533 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-plugins.zip: plugins: This file has already been successfully uploaded
+1769.536 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-themes.zip: themes: This file has already been successfully uploaded
+1769.538 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1769.540 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads2.zip: uploads: This file has already been successfully uploaded
+1769.542 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-others.zip: others: This file has already been successfully uploaded
+1769.552 (2) backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz: db: This file has already been successfully uploaded
+1769.560 (2) Requesting upload of the files that have not yet been successfully uploaded (1)
+1769.572 (2) Cloud backup selection (1/1): dropbox (last)
+1769.577 (2) Beginning dispatch of backup to remote (dropbox)
+1769.591 (2) Dropbox: begin cloud upload
+1769.602 (2) Dropbox: access gained
+1769.830 (2) Dropbox quota usage: normal=4409.5 Mb, shared=6054.7 Mb, total=1050880 Mb, available=1040415.9 Mb
+1769.834 (2) This is a resumption: 227540992 bytes had already been uploaded
+1769.836 (2) Dropbox: Attempt to upload: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip to: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip
+1771.836 (2) Dropbox chunked upload: 43.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 228589568)
+1773.909 (2) Dropbox chunked upload: 43.8 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 229638144)
+1776.882 (2) Dropbox chunked upload: 44 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 230686720)
+1779.024 (2) Dropbox chunked upload: 44.2 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 231735296)
+1781.067 (2) Dropbox chunked upload: 44.4 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 232783872)
+1786.293 (2) Dropbox chunked upload: 44.6 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 233832448)
+1789.720 (2) Dropbox chunked upload: 44.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 234881024)
+1791.585 (2) Dropbox chunked upload: 44.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 235929600)
+1793.548 (2) Dropbox chunked upload: 45.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 236978176)
+1795.716 (2) Dropbox chunked upload: 45.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 238026752)
+1801.285 (2) Dropbox chunked upload: 45.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 239075328)
+1804.092 (2) Dropbox chunked upload: 45.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 240123904)
+1806.426 (2) Dropbox chunked upload: 45.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 241172480)
+1809.010 (2) Dropbox chunked upload: 46.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 242221056)
+1812.246 (2) Dropbox chunked upload: 46.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 243269632)
+1814.128 (2) Dropbox chunked upload: 46.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 244318208)
+1816.137 (2) Dropbox chunked upload: 46.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 245366784)
+1818.077 (2) Dropbox chunked upload: 46.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 246415360)
+1821.091 (2) Dropbox chunked upload: 47.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 247463936)
+1822.876 (2) Dropbox chunked upload: 47.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 248512512)
+1824.981 (2) Dropbox chunked upload: 47.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 249561088)
+1827.033 (2) Dropbox chunked upload: 47.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 250609664)
+1831.617 (2) Dropbox chunked upload: 47.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 251658240)
+1835.402 (2) Dropbox chunked upload: 48.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 252706816)
+1837.394 (2) Dropbox chunked upload: 48.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 253755392)
+1839.353 (2) Dropbox chunked upload: 48.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 254803968)
+1842.323 (2) Dropbox chunked upload: 48.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 255852544)
+1844.085 (2) Dropbox chunked upload: 48.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 256901120)
+1846.145 (2) Dropbox chunked upload: 49.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 257949696)
+1848.264 (2) Dropbox chunked upload: 49.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 258998272)
+1852.270 (2) Dropbox chunked upload: 49.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 260046848)
+1854.147 (2) Dropbox chunked upload: 49.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 261095424)
+1856.294 (2) Dropbox chunked upload: 49.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 262144000)
+1858.820 (2) Dropbox chunked upload: 50.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 263192576)
+1862.445 (2) Dropbox chunked upload: 50.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 264241152)
+1864.205 (2) Dropbox chunked upload: 50.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 265289728)
+1866.031 (2) Dropbox chunked upload: 50.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 266338304)
+1868.125 (2) Dropbox chunked upload: 50.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 267386880)
+1872.270 (2) Dropbox chunked upload: 51.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 268435456)
+1874.070 (2) Dropbox chunked upload: 51.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 269484032)
+1876.667 (2) Dropbox chunked upload: 51.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 270532608)
+1878.752 (2) Dropbox chunked upload: 51.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 271581184)
+1881.747 (2) Dropbox chunked upload: 51.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 272629760)
+1883.467 (2) Dropbox chunked upload: 52.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 273678336)
+1886.249 (2) Dropbox chunked upload: 52.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 274726912)
+1888.404 (2) Dropbox chunked upload: 52.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 275775488)
+1892.199 (2) Dropbox chunked upload: 52.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 276824064)
+1894.237 (2) Dropbox chunked upload: 52.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 277872640)
+1896.230 (2) Dropbox chunked upload: 53.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 278921216)
+1898.448 (2) Dropbox chunked upload: 53.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 279969792)
+1901.641 (2) Dropbox chunked upload: 53.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 281018368)
+1903.347 (2) Dropbox chunked upload: 53.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 282066944)
+1905.295 (2) Dropbox chunked upload: 53.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 283115520)
+1907.325 (2) Dropbox chunked upload: 54.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 284164096)
+1910.315 (2) Dropbox chunked upload: 54.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 285212672)
+1912.035 (2) Dropbox chunked upload: 54.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 286261248)
+1914.823 (2) Dropbox chunked upload: 54.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 287309824)
+1917.628 (2) Dropbox chunked upload: 54.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 288358400)
+1921.667 (2) Dropbox chunked upload: 55.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 289406976)
+1923.419 (2) Dropbox chunked upload: 55.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 290455552)
+1925.518 (2) Dropbox chunked upload: 55.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 291504128)
+1927.935 (2) Dropbox chunked upload: 55.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 292552704)
+1931.009 (2) Dropbox chunked upload: 55.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 293601280)
+1932.757 (2) Dropbox chunked upload: 56.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 294649856)
+1935.206 (2) Dropbox chunked upload: 56.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 295698432)
+1937.166 (2) Dropbox chunked upload: 56.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 296747008)
+1940.494 (2) Dropbox chunked upload: 56.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 297795584)
+1942.210 (2) Dropbox chunked upload: 56.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 298844160)
+1944.403 (2) Dropbox chunked upload: 57.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 299892736)
+1946.682 (2) Dropbox chunked upload: 57.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 300941312)
+1949.849 (2) Dropbox chunked upload: 57.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 301989888)
+1951.597 (2) Dropbox chunked upload: 57.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 303038464)
+1954.415 (2) Dropbox chunked upload: 57.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 304087040)
+1957.422 (2) Dropbox chunked upload: 58.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 305135616)
+1960.903 (2) Dropbox chunked upload: 58.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 306184192)
+1963.075 (2) Dropbox chunked upload: 58.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 307232768)
+1965.222 (2) Dropbox chunked upload: 58.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 308281344)
+1967.406 (2) Dropbox chunked upload: 58.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 309329920)
+1971.050 (2) Dropbox chunked upload: 59.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 310378496)
+1972.919 (2) Dropbox chunked upload: 59.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 311427072)
+1974.957 (2) Dropbox chunked upload: 59.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 312475648)
+1978.045 (2) Dropbox chunked upload: 59.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 313524224)
+1984.441 (2) Dropbox chunked upload: 59.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 314572800)
+1986.592 (2) Dropbox chunked upload: 60.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 315621376)
+1988.670 (2) Dropbox chunked upload: 60.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 316669952)
+1991.171 (2) Dropbox chunked upload: 60.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 317718528)
+1995.441 (2) Dropbox chunked upload: 60.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 318767104)
+1997.382 (2) Dropbox chunked upload: 60.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 319815680)
+1999.495 (2) Dropbox chunked upload: 61.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 320864256)
+2001.607 (2) Dropbox chunked upload: 61.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 321912832)
+2005.016 (2) Dropbox chunked upload: 61.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 322961408)
+2007.465 (2) Dropbox chunked upload: 61.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 324009984)
+2009.474 (2) Dropbox chunked upload: 61.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 325058560)
+2011.828 (2) Dropbox chunked upload: 62.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 326107136)
+2015.690 (2) Dropbox chunked upload: 62.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 327155712)
+2017.424 (2) Dropbox chunked upload: 62.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 328204288)
+2019.273 (2) Dropbox chunked upload: 62.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 329252864)
+2021.187 (2) Dropbox chunked upload: 62.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 330301440)
+2024.629 (2) Dropbox chunked upload: 63.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 331350016)
+2027.003 (2) Dropbox chunked upload: 63.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 332398592)
+2029.200 (2) Dropbox chunked upload: 63.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 333447168)
+2031.323 (2) Dropbox chunked upload: 63.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 334495744)
+2036.149 (2) Dropbox chunked upload: 63.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 335544320)
+2037.852 (2) Dropbox chunked upload: 64.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 336592896)
+2039.939 (2) Dropbox chunked upload: 64.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 337641472)
+2042.048 (2) Dropbox chunked upload: 64.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 338690048)
+2045.029 (2) Dropbox chunked upload: 64.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 339738624)
+2046.880 (2) Dropbox chunked upload: 64.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 340787200)
+2049.200 (2) Dropbox chunked upload: 65.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 341835776)
+2051.263 (2) Dropbox chunked upload: 65.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 342884352)
+2054.528 (2) Dropbox chunked upload: 65.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 343932928)
+2056.462 (2) Dropbox chunked upload: 65.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 344981504)
+2058.498 (2) Dropbox chunked upload: 65.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 346030080)
+2060.694 (2) Dropbox chunked upload: 66.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 347078656)
+2064.326 (2) Dropbox chunked upload: 66.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 348127232)
+2065.933 (2) Dropbox chunked upload: 66.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 349175808)
+2067.973 (2) Dropbox chunked upload: 66.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 350224384)
+2070.025 (2) Dropbox chunked upload: 66.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 351272960)
+2073.627 (2) Dropbox chunked upload: 67.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 352321536)
+2075.605 (2) Dropbox chunked upload: 67.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 353370112)
+2077.756 (2) Dropbox chunked upload: 67.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 354418688)
+2079.828 (2) Dropbox chunked upload: 67.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 355467264)
+2083.438 (2) Dropbox chunked upload: 67.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 356515840)
+2085.154 (2) Dropbox chunked upload: 68.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 357564416)
+2087.278 (2) Dropbox chunked upload: 68.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 358612992)
+2091.602 (2) Dropbox chunked upload: 68.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 359661568)
+2095.005 (2) Dropbox chunked upload: 68.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 360710144)
+2096.724 (2) Dropbox chunked upload: 68.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 361758720)
+2101.244 (2) Dropbox chunked upload: 69.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 362807296)
+2103.622 (2) Dropbox chunked upload: 69.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 363855872)
+2108.007 (2) Dropbox chunked upload: 69.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 364904448)
+2109.832 (2) Dropbox chunked upload: 69.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 365953024)
+2111.757 (2) Dropbox chunked upload: 69.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 367001600)
+2114.513 (2) Dropbox chunked upload: 70.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 368050176)
+2117.814 (2) Dropbox chunked upload: 70.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 369098752)
+2119.469 (2) Dropbox chunked upload: 70.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 370147328)
+2121.509 (2) Dropbox chunked upload: 70.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 371195904)
+2124.399 (2) Dropbox chunked upload: 70.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 372244480)
+2128.806 (2) Dropbox chunked upload: 71.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 373293056)
+2130.693 (2) Dropbox chunked upload: 71.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 374341632)
+2132.626 (2) Dropbox chunked upload: 71.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 375390208)
+2134.710 (2) Dropbox chunked upload: 71.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 376438784)
+2138.204 (2) Dropbox chunked upload: 71.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 377487360)
+2140.286 (2) Dropbox chunked upload: 72.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 378535936)
+2142.307 (2) Dropbox chunked upload: 72.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 379584512)
+2145.106 (2) Dropbox chunked upload: 72.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 380633088)
+2149.004 (2) Dropbox chunked upload: 72.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 381681664)
+2150.736 (2) Dropbox chunked upload: 72.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 382730240)
+2152.624 (2) Dropbox chunked upload: 73.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 383778816)
+2155.215 (2) Dropbox chunked upload: 73.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 384827392)
+2158.808 (2) Dropbox chunked upload: 73.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 385875968)
+2160.628 (2) Dropbox chunked upload: 73.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 386924544)
+2162.490 (2) Dropbox chunked upload: 73.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 387973120)
+2164.483 (2) Dropbox chunked upload: 74.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 389021696)
+2167.897 (2) Dropbox chunked upload: 74.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 390070272)
+2169.565 (2) Dropbox chunked upload: 74.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 391118848)
+2171.792 (2) Dropbox chunked upload: 74.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 392167424)
+2174.544 (2) Dropbox chunked upload: 74.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 393216000)
+2178.349 (2) Dropbox chunked upload: 75.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 394264576)
+2180.002 (2) Dropbox chunked upload: 75.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 395313152)
+2182.037 (2) Dropbox chunked upload: 75.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 396361728)
+2184.222 (2) Dropbox chunked upload: 75.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 397410304)
+2188.777 (2) Dropbox chunked upload: 75.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 398458880)
+2190.568 (2) Dropbox chunked upload: 76.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 399507456)
+2192.503 (2) Dropbox chunked upload: 76.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 400556032)
+2194.787 (2) Dropbox chunked upload: 76.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 401604608)
+2197.506 (2) Dropbox chunked upload: 76.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 402653184)
+2199.280 (2) Dropbox chunked upload: 76.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 403701760)
+2201.183 (2) Dropbox chunked upload: 77.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 404750336)
+2203.218 (2) Dropbox chunked upload: 77.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 405798912)
+2206.614 (2) Dropbox chunked upload: 77.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 406847488)
+2208.639 (2) Dropbox chunked upload: 77.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 407896064)
+2210.713 (2) Dropbox chunked upload: 77.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 408944640)
+2213.084 (2) Dropbox chunked upload: 78.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 409993216)
+2219.932 (2) Dropbox chunked upload: 78.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 411041792)
+2221.623 (2) Dropbox chunked upload: 78.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 412090368)
+2223.932 (2) Dropbox chunked upload: 78.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 413138944)
+2226.293 (2) Dropbox chunked upload: 78.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 414187520)
+2228.984 (2) Dropbox chunked upload: 79.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 415236096)
+2230.799 (2) Dropbox chunked upload: 79.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 416284672)
+2232.715 (2) Dropbox chunked upload: 79.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 417333248)
+2234.817 (2) Dropbox chunked upload: 79.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 418381824)
+2237.384 (2) Dropbox chunked upload: 79.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 419430400)
+2239.450 (2) Dropbox chunked upload: 80.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 420478976)
+2241.501 (2) Dropbox chunked upload: 80.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 421527552)
+2243.747 (2) Dropbox chunked upload: 80.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 422576128)
+2246.280 (2) Dropbox chunked upload: 80.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 423624704)
+2248.205 (2) Dropbox chunked upload: 80.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 424673280)
+2250.009 (2) Dropbox chunked upload: 81.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 425721856)
+2252.292 (2) Dropbox chunked upload: 81.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 426770432)
+2254.955 (2) Dropbox chunked upload: 81.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 427819008)
+2256.776 (2) Dropbox chunked upload: 81.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 428867584)
+2258.629 (2) Dropbox chunked upload: 81.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 429916160)
+2261.119 (2) Dropbox chunked upload: 82.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 430964736)
+2263.547 (2) Dropbox chunked upload: 82.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 432013312)
+2265.266 (2) Dropbox chunked upload: 82.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 433061888)
+2267.006 (2) Dropbox chunked upload: 82.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 434110464)
+2269.060 (2) Dropbox chunked upload: 82.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 435159040)
+2274.621 (2) Dropbox chunked upload: 83.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 436207616)
+2276.232 (2) Dropbox chunked upload: 83.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 437256192)
+2278.274 (2) Dropbox chunked upload: 83.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 438304768)
+2280.358 (2) Dropbox chunked upload: 83.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 439353344)
+2283.846 (2) Dropbox chunked upload: 83.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 440401920)
+2285.556 (2) Dropbox chunked upload: 84.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 441450496)
+2287.514 (2) Dropbox chunked upload: 84.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 442499072)
+2289.592 (2) Dropbox chunked upload: 84.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 443547648)
+2292.038 (2) Dropbox chunked upload: 84.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 444596224)
+2294.029 (2) Dropbox chunked upload: 84.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 445644800)
+2296.444 (2) Dropbox chunked upload: 85.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 446693376)
+2298.662 (2) Dropbox chunked upload: 85.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 447741952)
+2301.187 (2) Dropbox chunked upload: 85.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 448790528)
+2302.782 (2) Dropbox chunked upload: 85.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 449839104)
+2304.986 (2) Dropbox chunked upload: 85.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 450887680)
+2308.266 (2) Dropbox chunked upload: 86.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 451936256)
+2311.714 (2) Dropbox chunked upload: 86.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 452984832)
+2313.419 (2) The scheduled resumption is within 45 seconds - will reschedule
+2313.423 (2) Rescheduling resumption 3: moving to 634 seconds from now (1436911255)
+2313.431 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 589 + 45 = 634
+2313.433 (2) Dropbox chunked upload: 86.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 454033408)
+2315.345 (2) Dropbox chunked upload: 86.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 455081984)
+2317.475 (2) Dropbox chunked upload: 86.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 456130560)
+2320.248 (2) Dropbox chunked upload: 87.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 457179136)
+2321.975 (2) Dropbox chunked upload: 87.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 458227712)
+2324.314 (2) Dropbox chunked upload: 87.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 459276288)
+2326.667 (2) Dropbox chunked upload: 87.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 460324864)
+2329.106 (2) Dropbox chunked upload: 87.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 461373440)
+2330.854 (2) Dropbox chunked upload: 88.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 462422016)
+2332.828 (2) Dropbox chunked upload: 88.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 463470592)
+2334.870 (2) Dropbox chunked upload: 88.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 464519168)
+2338.481 (2) Dropbox chunked upload: 88.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 465567744)
+2340.086 (2) Dropbox chunked upload: 88.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 466616320)
+2342.161 (2) Dropbox chunked upload: 89.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 467664896)
+2344.415 (2) Dropbox chunked upload: 89.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 468713472)
+2353.707 (2) Dropbox chunked upload: 89.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 469762048)
+2355.426 (2) Dropbox chunked upload: 89.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 470810624)
+2357.534 (2) Dropbox chunked upload: 89.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 471859200)
+2359.774 (2) Dropbox chunked upload: 90.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 472907776)
+2362.829 (2) Dropbox chunked upload: 90.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 473956352)
+2365.404 (2) Dropbox chunked upload: 90.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 475004928)
+2367.345 (2) Dropbox chunked upload: 90.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 476053504)
+2369.592 (2) Dropbox chunked upload: 90.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 477102080)
+2372.626 (2) Dropbox chunked upload: 91.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 478150656)
+2374.194 (2) The time we have been running (605.1) is approaching the resumption interval (634) - increasing resumption interval to 636
+2374.198 (2) Dropbox chunked upload: 91.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 479199232)
+2376.636 (2) The time we have been running (607.5) is approaching the resumption interval (636) - increasing resumption interval to 638
+2376.640 (2) Dropbox chunked upload: 91.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 480247808)
+2378.626 (2) The time we have been running (609.5) is approaching the resumption interval (638) - increasing resumption interval to 640
+2378.630 (2) Dropbox chunked upload: 91.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 481296384)
+2383.462 (2) The time we have been running (614.3) is approaching the resumption interval (640) - increasing resumption interval to 645
+2383.470 (2) Dropbox chunked upload: 91.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 482344960)
+2385.085 (2) The time we have been running (616) is approaching the resumption interval (645) - increasing resumption interval to 646
+2385.090 (2) Dropbox chunked upload: 92.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 483393536)
+2386.838 (2) The time we have been running (617.7) is approaching the resumption interval (646) - increasing resumption interval to 648
+2386.845 (2) Dropbox chunked upload: 92.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 484442112)
+2388.971 (2) The time we have been running (619.8) is approaching the resumption interval (648) - increasing resumption interval to 650
+2388.976 (2) Dropbox chunked upload: 92.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 485490688)
+2392.940 (2) The time we have been running (623.8) is approaching the resumption interval (650) - increasing resumption interval to 654
+2392.944 (2) Dropbox chunked upload: 92.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 486539264)
+2395.438 (2) The time we have been running (626.3) is approaching the resumption interval (654) - increasing resumption interval to 657
+2395.444 (2) Dropbox chunked upload: 92.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 487587840)
+2397.725 (2) The time we have been running (628.6) is approaching the resumption interval (657) - increasing resumption interval to 659
+2397.730 (2) Dropbox chunked upload: 93.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 488636416)
+2399.894 (2) The time we have been running (630.8) is approaching the resumption interval (659) - increasing resumption interval to 661
+2399.904 (2) Dropbox chunked upload: 93.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 489684992)
+2403.758 (2) The time we have been running (634.6) is approaching the resumption interval (661) - increasing resumption interval to 665
+2403.763 (2) Dropbox chunked upload: 93.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 490733568)
+2405.622 (2) The time we have been running (636.5) is approaching the resumption interval (665) - increasing resumption interval to 667
+2405.626 (2) Dropbox chunked upload: 93.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 491782144)
+2407.575 (2) The time we have been running (638.4) is approaching the resumption interval (667) - increasing resumption interval to 669
+2407.580 (2) Dropbox chunked upload: 93.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 492830720)
+2409.895 (2) The time we have been running (640.8) is approaching the resumption interval (669) - increasing resumption interval to 671
+2409.899 (2) Dropbox chunked upload: 94.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 493879296)
+2412.578 (2) The time we have been running (643.5) is approaching the resumption interval (671) - increasing resumption interval to 674
+2412.582 (2) Dropbox chunked upload: 94.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 494927872)
+2414.847 (2) The time we have been running (645.7) is approaching the resumption interval (674) - increasing resumption interval to 676
+2414.851 (2) Dropbox chunked upload: 94.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 495976448)
+2416.631 (2) The time we have been running (647.5) is approaching the resumption interval (676) - increasing resumption interval to 678
+2416.636 (2) Dropbox chunked upload: 94.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 497025024)
+2418.695 (2) The time we have been running (649.6) is approaching the resumption interval (678) - increasing resumption interval to 680
+2418.700 (2) Dropbox chunked upload: 94.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 498073600)
+2421.749 (2) The time we have been running (652.6) is approaching the resumption interval (680) - increasing resumption interval to 683
+2421.754 (2) Dropbox chunked upload: 95.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 499122176)
+2423.613 (2) The time we have been running (654.5) is approaching the resumption interval (683) - increasing resumption interval to 685
+2423.617 (2) Dropbox chunked upload: 95.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 500170752)
+2425.706 (2) The time we have been running (656.6) is approaching the resumption interval (685) - increasing resumption interval to 687
+2425.711 (2) Dropbox chunked upload: 95.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 501219328)
+2427.711 (2) The time we have been running (658.6) is approaching the resumption interval (687) - increasing resumption interval to 689
+2427.718 (2) Dropbox chunked upload: 95.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 502267904)
+2431.402 (2) The time we have been running (662.3) is approaching the resumption interval (689) - increasing resumption interval to 693
+2431.406 (2) Dropbox chunked upload: 95.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 503316480)
+2433.116 (2) The time we have been running (664) is approaching the resumption interval (693) - increasing resumption interval to 694
+2433.120 (2) Dropbox chunked upload: 96.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 504365056)
+2435.120 (2) The time we have been running (666) is approaching the resumption interval (694) - increasing resumption interval to 696
+2435.125 (2) Dropbox chunked upload: 96.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 505413632)
+2437.181 (2) The time we have been running (668.1) is approaching the resumption interval (696) - increasing resumption interval to 699
+2437.186 (2) Dropbox chunked upload: 96.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 506462208)
+2439.674 (2) The time we have been running (670.5) is approaching the resumption interval (699) - increasing resumption interval to 701
+2439.679 (2) Dropbox chunked upload: 96.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 507510784)
+2441.376 (2) The time we have been running (672.2) is approaching the resumption interval (701) - increasing resumption interval to 703
+2441.380 (2) Dropbox chunked upload: 96.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 508559360)
+2443.335 (2) The time we have been running (674.2) is approaching the resumption interval (703) - increasing resumption interval to 705
+2443.341 (2) Dropbox chunked upload: 97.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 509607936)
+2445.294 (2) The time we have been running (676.2) is approaching the resumption interval (705) - increasing resumption interval to 707
+2445.299 (2) Dropbox chunked upload: 97.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 510656512)
+2447.726 (2) The time we have been running (678.6) is approaching the resumption interval (707) - increasing resumption interval to 709
+2447.731 (2) Dropbox chunked upload: 97.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 511705088)
+2449.357 (2) The time we have been running (680.2) is approaching the resumption interval (709) - increasing resumption interval to 711
+2449.362 (2) Dropbox chunked upload: 97.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 512753664)
+2452.129 (2) The time we have been running (683) is approaching the resumption interval (711) - increasing resumption interval to 714
+2452.133 (2) Dropbox chunked upload: 97.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 513802240)
+2454.174 (2) The time we have been running (685) is approaching the resumption interval (714) - increasing resumption interval to 716
+2454.179 (2) Dropbox chunked upload: 98.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 514850816)
+2456.580 (2) The time we have been running (687.4) is approaching the resumption interval (716) - increasing resumption interval to 718
+2456.587 (2) Dropbox chunked upload: 98.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 515899392)
+2458.453 (2) The time we have been running (689.3) is approaching the resumption interval (718) - increasing resumption interval to 720
+2458.458 (2) Dropbox chunked upload: 98.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 516947968)
+2460.308 (2) The time we have been running (691.2) is approaching the resumption interval (720) - increasing resumption interval to 722
+2460.312 (2) Dropbox chunked upload: 98.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 517996544)
+2463.250 (2) The time we have been running (694.1) is approaching the resumption interval (722) - increasing resumption interval to 725
+2463.255 (2) Dropbox chunked upload: 98.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 519045120)
+2465.893 (2) The time we have been running (696.8) is approaching the resumption interval (725) - increasing resumption interval to 727
+2465.898 (2) Dropbox chunked upload: 99.1 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 520093696)
+2467.594 (2) The time we have been running (698.5) is approaching the resumption interval (727) - increasing resumption interval to 729
+2467.600 (2) Dropbox chunked upload: 99.3 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 521142272)
+2469.672 (2) The time we have been running (700.5) is approaching the resumption interval (729) - increasing resumption interval to 731
+2469.677 (2) Dropbox chunked upload: 99.5 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 522190848)
+2472.195 (2) The time we have been running (703.1) is approaching the resumption interval (731) - increasing resumption interval to 734
+2472.201 (2) Dropbox chunked upload: 99.7 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 523239424)
+2476.637 (2) The time we have been running (707.5) is approaching the resumption interval (734) - increasing resumption interval to 738
+2476.644 (2) Dropbox chunked upload: 99.9 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 524288000)
+2478.141 (2) The time we have been running (709) is approaching the resumption interval (738) - increasing resumption interval to 740
+2478.146 (2) Dropbox chunked upload: 100 % uploaded (My5pwPkNKOZaG9PGuNYvOw, 524874922)
+2481.992 (2) Recording as successfully uploaded: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip (fbfa29f5656464bf9f3e613db80de1cb)
+2482.213 (2) Deleting local file: backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip: OK
+2482.217 (2) Dropbox: File upload success (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-uploads.zip): 512573 Kb in 712s (719 Kb/s)
+2482.223 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+2482.226 (2) Number of backup sets in history: 3
+2482.229 (2) Examining backup set with datestamp: 1436908307 (Jul 14 2015 21:11:47)
+2482.231 (2) 1436908307: db: this set includes a database (backup_2015-07-14-2111_Earth_Innovation_Institute_a75438fc8560-db.gz); db count is now 1
+2482.236 (2) The time we have been running (713.1) is approaching the resumption interval (740) - increasing resumption interval to 744
+2482.241 (2) 1436908307: this backup set remains non-empty (1/1); will retain in history
+2482.243 (2) Examining backup set with datestamp: 1436821588 (Jul 13 2015 21:06:28)
+2482.244 (2) 1436821588: db: this set includes a database (backup_2015-07-13-2106_Earth_Innovation_Institute_87e7b5052553-db.gz); db count is now 2
+2482.249 (2) 1436821588: this backup set remains non-empty (1/1); will retain in history
+2482.251 (2) Examining backup set with datestamp: 1436734831 (Jul 12 2015 21:00:31)
+2482.253 (2) 1436734831: db: this set includes a database (backup_2015-07-12-2100_Earth_Innovation_Institute_07d49b6d5c8a-db.gz); db count is now 3
+2482.258 (2) 1436734831: this backup set remains non-empty (1/1); will retain in history
+2482.260 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+2482.263 (2) Resume backup (a75438fc8560, 2): finish run
+2482.267 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+2482.275 (2) Fetching RSS news feed
+2482.565 (2) Fetched RSS news feed; result is a: SimplePie
+2482.571 (2) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 Kb) to: abel@...
+2484.818 (2) The backup apparently succeeded and is now complete
