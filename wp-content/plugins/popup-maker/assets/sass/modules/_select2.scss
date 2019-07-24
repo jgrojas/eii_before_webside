@@ -1,0 +1,287 @@
+/*!******************************************************************************
+ * Copyright (c) 2017, WP Popup Maker
+ *
+ * The bulk of this is to style jquery select2 to better
+ * resemble the default WP dashboard inputs.
+ ******************************************************************************/
+
+<<<<<<< HEAD
+$plugin-prefix: 'plugin' !default;
+$custom-select2-selector: 'select2' !default;
+
+.#{$plugin-prefix}-field-select2 {
+  position: relative;
+
+  .#{$custom-select2-selector}-container {
+=======
+$plugin_prefix: 'plugin' !default;
+$custom_select2_selector: 'select2' !default;
+
+.#{$plugin_prefix}-field-select2 {
+  position: relative;
+
+  .#{$custom_select2_selector}-container {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    box-sizing: border-box;
+
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+
+    @import "../vendor/select2/single";
+    @import "../vendor/select2/multiple";
+  }
+
+  @import "../vendor/select2/dropdown";
+
+<<<<<<< HEAD
+  .#{$custom-select2-selector}-close-mask {
+=======
+  .#{$custom_select2_selector}-close-mask {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    z-index: 99;
+
+    // styles required for IE to work
+    background-color: #fff;
+    filter: alpha(opacity=0);
+  }
+
+<<<<<<< HEAD
+  .#{$custom-select2-selector}-hidden-accessible {
+=======
+  .#{$custom_select2_selector}-hidden-accessible {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+  }
+
+  @import "../vendor/select2/theme/default/layout";
+  @import "../vendor/select2/theme/classic/layout";
+
+<<<<<<< HEAD
+  > .#{$custom-select2-selector}-container--below.#{$custom-select2-selector}-container--open + .#{$custom-select2-selector}-container--open,
+  > .#{$custom-select2-selector}-container--below.#{$custom-select2-selector}-container--open + .#{$plugin-prefix}-desc + .#{$custom-select2-selector}-container--open {
+=======
+  > .#{$custom_select2_selector}-container--below.#{$custom_select2_selector}-container--open + .#{$custom_select2_selector}-container--open,
+  > .#{$custom_select2_selector}-container--below.#{$custom_select2_selector}-container--open + .#{$plugin_prefix}-desc + .#{$custom_select2_selector}-container--open {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    position: absolute !important;
+  }
+
+  // All Select2 Containers - Wraps Both Selectbox & Dropdown Elements
+<<<<<<< HEAD
+  .#{$custom-select2-selector}-container {
+
+    // Selectbox
+    .#{$custom-select2-selector}-selection {
+=======
+  .#{$custom_select2_selector}-container {
+
+    // Selectbox
+    .#{$custom_select2_selector}-selection {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+      margin: 1px;
+      font-size: 14px;
+      border-radius: 0;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+      border-color: #ddd;
+      transition: 0.05s border-color ease-in-out;
+
+    }
+
+<<<<<<< HEAD
+    &.#{$custom-select2-selector}-container--focus {
+      .#{$custom-select2-selector}-selection {
+=======
+    &.#{$custom_select2_selector}-container--focus {
+      .#{$custom_select2_selector}-selection {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+        outline: none;
+        border-color: #5b9dd9;
+        box-shadow: 0 0 2px rgba(30, 140, 190, 0.8);
+      }
+    }
+
+    // Single Select
+<<<<<<< HEAD
+    .#{$custom-select2-selector}-selection--single {
+
+      // Rendered Option
+      .#{$custom-select2-selector}-selection__rendered {
+=======
+    .#{$custom_select2_selector}-selection--single {
+
+      // Rendered Option
+      .#{$custom_select2_selector}-selection__rendered {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+        //padding-left: 0;
+      }
+
+    }
+
+    // Multiple Select
+<<<<<<< HEAD
+    .#{$custom-select2-selector}-selection--multiple {
+=======
+    .#{$custom_select2_selector}-selection--multiple {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+      overflow-y: auto;
+      max-height: 150px;
+      min-height: 28px;
+      line-height: 16px;
+      font-size: 12px;
+
+<<<<<<< HEAD
+      .#{$custom-select2-selector}-selection__clear {
+        margin-right: 3px;
+      }
+
+      .#{$custom-select2-selector}-selection__rendered {
+
+      }
+
+      .#{$custom-select2-selector}-search--inline {
+        margin: 0;
+        // Search Field
+        .#{$custom-select2-selector}-search__field {
+=======
+      .#{$custom_select2_selector}-selection__clear {
+        margin-right: 3px;
+      }
+
+      .#{$custom_select2_selector}-selection__rendered {
+
+      }
+
+      .#{$custom_select2_selector}-search--inline {
+        margin: 0;
+        // Search Field
+        .#{$custom_select2_selector}-search__field {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+          border-color: #ddd;
+          padding: 3px 5px 0;
+          min-width: 5em;
+          width: 100% !important;
+        }
+      }
+
+<<<<<<< HEAD
+      .#{$custom-select2-selector}-selection__choice {
+=======
+      .#{$custom_select2_selector}-selection__choice {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+        margin-top: 4px;
+        margin-bottom: 0;
+      }
+
+    }
+
+    // Dropdown
+<<<<<<< HEAD
+    .#{$custom-select2-selector}-dropdown {
+=======
+    .#{$custom_select2_selector}-dropdown {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+      margin: 0 1px;
+      border-color: #ddd;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+      // Compensate for the margin applied to the Selectbox.
+      max-width: calc(100% - 4px);
+      position: relative;
+
+      // Search Field
+<<<<<<< HEAD
+      .#{$custom-select2-selector}-search__field {
+=======
+      .#{$custom_select2_selector}-search__field {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+        border-color: #ddd;
+        padding: 3px 5px;
+        min-width: 5em;
+      }
+
+      // Results
+<<<<<<< HEAD
+      .#{$custom-select2-selector}-results {
+
+        // Each result set. Can be nested.
+        .#{$custom-select2-selector}-results__option {
+=======
+      .#{$custom_select2_selector}-results {
+
+        // Each result set. Can be nested.
+        .#{$custom_select2_selector}-results__option {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+          padding: 3px 6px;
+          margin: 0;
+
+          &[aria-selected=true] {
+          }
+
+        }
+<<<<<<< HEAD
+        .#{$custom-select2-selector}-results__option[role=group] {
+          padding: 3px 0 0;
+
+          .#{$custom-select2-selector}-results__group {
+=======
+        .#{$custom_select2_selector}-results__option[role=group] {
+          padding: 3px 0 0;
+
+          .#{$custom_select2_selector}-results__group {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+            padding: 0 6px;
+          }
+        }
+
+<<<<<<< HEAD
+        .#{$custom-select2-selector}-results__options--nested {
+=======
+        .#{$custom_select2_selector}-results__options--nested {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+          padding: 3px 6px 0;
+        }
+
+        // Hover
+<<<<<<< HEAD
+        .#{$custom-select2-selector}-results__option--highlighted {
+=======
+        .#{$custom_select2_selector}-results__option--highlighted {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+          background: #3e86d0;
+        }
+
+      }
+
+    }
+
+  }
+
+<<<<<<< HEAD
+  .#{$custom-select2-selector}-container + .#{$custom-select2-selector}-container--open {
+=======
+  .#{$custom_select2_selector}-container + .#{$custom_select2_selector}-container--open {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    top: inherit !important;
+  }
+
+}

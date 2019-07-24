@@ -1,0 +1,57 @@
+/*!******************************************************************************
+ * Copyright (c) 2017, WP Popup Maker
+ ******************************************************************************/
+
+<<<<<<< HEAD
+$plugin-prefix: 'plugin' !default;
+$custom-select2-selector: 'select2' !default;
+=======
+$plugin_prefix: 'plugin' !default;
+$custom_select2_selector: 'select2' !default;
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+
+/**
+ * Triggers field
+ */
+<<<<<<< HEAD
+.#{$plugin-prefix}-field-triggers {
+  .#{$plugin-prefix}-popup-trigger-editor {
+=======
+.#{$plugin_prefix}-field-triggers {
+  .#{$plugin_prefix}-popup-trigger-editor {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    @include add-more-table-lists();
+  }
+}
+
+/**
+ * Cookies field
+ */
+<<<<<<< HEAD
+.#{$plugin-prefix}-field-cookies {
+  .#{$plugin-prefix}-popup-cookie-editor {
+=======
+.#{$plugin_prefix}-field-cookies {
+  .#{$plugin_prefix}-popup-cookie-editor {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    @include add-more-table-lists();
+  }
+}
+
+<<<<<<< HEAD
+.#{$plugin-prefix}-field-cookie_key {
+=======
+.#{$plugin_prefix}-field-cookie_key {
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+  .cookie-key {
+    position: relative;
+    display: inline-block;
+    button.reset {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+    }
+  }
+}

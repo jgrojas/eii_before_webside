@@ -1,0 +1,1124 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distrubuted under the GPL-2.0+
+msgid ""
+msgstr ""
+"Project-Id-Version: WPdonations\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2014-06-01 12:26+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: gateways/abstract-class-wpdonations-gateways.php:87
+#, php-format
+msgid "Donation #%d Payment Update"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:19
+msgid "PayPal Standard"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:24
+msgid "PayPal Email"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:25
+msgid "Your PayPal email address."
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:32
+msgid "PayPal Identity Token"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:33
+msgid ""
+"Optionally enable \"Payment Data Transfer\" (Profile > Website Payment "
+"Preferences) and then copy your identity token here. This will allow "
+"payments to be verified without the need for PayPal IPN."
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:40
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:41
+msgid "Enable PayPal Sandbox (used for testing)"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:43
+msgid "Yes"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:44
+msgid "No"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:116
+msgid "New recurring donation"
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:242
+#: gateways/class-wpdonations-paypal.php:277
+#, php-format
+msgid ""
+"Payment has been received in full for donation #%d - this donation has been "
+"published."
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:285
+#, php-format
+msgid ""
+"PayPal payment is pending for donation #%d - this donation has *not* been "
+"automatically approved."
+msgstr ""
+
+#: gateways/class-wpdonations-paypal.php:291
+#, php-format
+msgid ""
+"The payment for donation #%d was reversed. Please check this donation/"
+"payment and change the status manually if need be."
+msgstr ""
+
+#: includes/admin/class-wpdonations-addons.php:57
+#: includes/admin/class-wpdonations-admin.php:51
+msgid "WPdonations Add-ons"
+msgstr ""
+
+#: includes/admin/class-wpdonations-admin.php:48 wpdonations.php:83
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wpdonations-admin.php:51
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:47
+msgid "Approve payment"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:131
+#, php-format
+msgid "%s payment(s) approved"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:133
+#, php-format
+msgid "%s payment approved"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:179
+msgid "Select a category"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:242
+msgid "Select a campaign"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:257
+msgid "Enter Donation Title Here"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:273
+#, php-format
+msgid "Donation updated. <a href=\"%s\">View donation</a>"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:274
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:275
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:276
+msgid "Donation updated."
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:277
+#, php-format
+msgid "Donation restored to revision from %s"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:278
+#, php-format
+msgid "Donation published. <a href=\"%s\">View donation</a>"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:279
+msgid "Donation saved."
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:280
+#, php-format
+msgid ""
+"Donation submitted. <a target=\"_blank\" href=\"%s\">Preview donation</a>"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:281
+#, php-format
+msgid ""
+"Donation scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview Donation</a>"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:282
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:283
+#, php-format
+msgid ""
+"Donation draft updated. <a target=\"_blank\" href=\"%s\">Preview Donation</a>"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:300
+#: includes/class-wpdonations-widgets.php:146
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:302
+#: includes/class-wpdonations-post-types.php:87
+msgid "Campaign"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:303
+#: templates/content-single-donation.php:34
+msgid "Donor"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:304
+#: templates/donation-dashboard.php:7
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:305
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:306
+msgid "is recurring?"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:307
+msgid "is anonymous?"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:308
+msgid "Donation Status"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:309
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:341
+#: templates/content-single-donation.php:6
+msgid "This donation is anonymous"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:361
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:368
+msgid "Approve Payment"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:375
+msgid "View"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:380
+#: includes/class-wpdonations-post-types.php:158
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/class-wpdonations-cpt.php:385
+#: templates/donation-dashboard.php:39
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:34
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:40
+msgid "Donations per page"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:41
+msgid "How many donations should be shown per page by default?"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:48
+msgid "Global Target"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:49
+msgid "The amount of money you would like to collect."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:55
+msgid "Anonymous donations"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:56
+msgid "Hide anonymous donations"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:57
+msgid "If enabled, anonymous donations will be hidden from the donations list."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:64
+msgid "Donation categories"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:65
+msgid "Enable donation categories"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:66
+msgid ""
+"Choose whether to enable donation categories. Categories must be setup by an "
+"admin for users to choose during donation submission."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:73
+msgid "Donation campaigns"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:74
+msgid "Enable donation campaigns"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:75
+msgid ""
+"Choose whether to enable donation campaigns. campaigns must be setup by an "
+"admin for users to choose during donation submission."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:82
+msgid "Donation Submission"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:87
+msgid "Account creation"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:88
+msgid "Allow account creation"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:89
+msgid ""
+"If enabled, non-logged in users will be able to create an account by "
+"entering their email address on the donation submission form."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:96
+msgid "Account required"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:97
+msgid "Donation submission requires an account"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:98
+msgid ""
+"If disabled, non-logged in users will be able to submit donations without "
+"creating an account."
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:116
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:121
+msgid "Donor Email Content"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:122
+msgid ""
+"Enter the content for the email sent to donors. Leave blank to use the "
+"default message. The following tags can be used to insert data dynamically:"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:123
+msgid "The users display name in WP"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:124
+msgid "The donation date"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:125
+msgid "The donation amount"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:180
+msgid "Settings successfully saved"
+msgstr ""
+
+#: includes/admin/class-wpdonations-settings.php:254
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:27
+msgid "Donation amount"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:28
+msgid "e.g. \"20.00\""
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:29
+msgid "This is the donation amount, do not add currency symbol"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:32
+msgid "Recurrence?"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:35
+#: includes/forms/class-wpdonations-form-submit-donation.php:378
+msgid "not recurring"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:36
+#: wpdonations-template.php:279
+msgid "Weekly"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:37
+#: wpdonations-template.php:282
+msgid "Monthly"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:38
+#: wpdonations-template.php:285
+msgid "Yearly"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:42
+#: includes/forms/class-wpdonations-form-submit-donation.php:145
+msgid "Anonymous donation?"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:46
+msgid "Donor firstname"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:50
+msgid "Donor lastname"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:54
+msgid "Donor profile picture"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:55
+msgid "URL to the donor profile picture"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:59
+msgid "Donor address"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:63
+msgid "Donor postcode / Zip"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:67
+msgid "Donor town"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:71
+msgid "Donor website"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:84
+msgid "Donation Details"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:104
+msgid "Use as profile picture"
+msgstr ""
+
+#: includes/admin/class-wpdonations-writepanels.php:104
+msgid "Upload profile picture"
+msgstr ""
+
+#: includes/class-wpdonations-emails.php:29
+#, php-format
+msgid "Your Donation \"%s\""
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:50 wpdonations-template.php:228
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:53
+msgid "Pending Offline Payment"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:132
+#: includes/class-wpdonations-payments.php:137
+msgid "Proceed to payment &rarr;"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:134
+msgid "Submit donation &rarr;"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:172
+msgctxt "donation_status"
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:177
+#, php-format
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wpdonations-payments.php:181
+msgctxt "donation_status"
+msgid "Pending Offline Payment"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:186
+#, php-format
+msgid "Pending Offline Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Offline Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wpdonations-payments.php:229
+msgid "Payment Gateways"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:236
+msgid "Currency Code"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:237
+msgid ""
+"Enter the currency code you wish to use. E.g. for US dollars enter "
+"<code>USD</code>. Your gateway must support your input currency for payments "
+"to work."
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:243
+msgid "Offline Payment Instructions"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:244
+msgid ""
+"Please enter the instructions for your donors to send you the offline "
+"payments (BACS, cheque etc...)"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:250
+msgid "Payment Gateway"
+msgstr ""
+
+#: includes/class-wpdonations-payments.php:251
+msgid ""
+"Choose the gateway to use for collecting funds. Depending on the gateway you "
+"choose you should ensure your Submit donation page is served over HTTPS. You "
+"can use <a href=\"http://wordpress.org/plugins/wordpress-https/\">WordPress "
+"HTTPS</a> to do this."
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:41
+msgid "Category"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:42
+msgid "Categories"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:46
+msgctxt "Donation category slug - resave permalinks after changing this"
+msgid "donation-category"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:63
+#: includes/class-wpdonations-post-types.php:108
+#: includes/class-wpdonations-post-types.php:163
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:64
+#: includes/class-wpdonations-post-types.php:109
+#: includes/class-wpdonations-post-types.php:155
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:65
+#: includes/class-wpdonations-post-types.php:110
+#: includes/class-wpdonations-post-types.php:166
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:66
+#: includes/class-wpdonations-post-types.php:111
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:67
+#: includes/class-wpdonations-post-types.php:112
+#: includes/class-wpdonations-post-types.php:159
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:68
+#: includes/class-wpdonations-post-types.php:113
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:69
+#: includes/class-wpdonations-post-types.php:114
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:70
+#: includes/class-wpdonations-post-types.php:115
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:88
+#: includes/forms/class-wpdonations-form-submit-donation.php:112
+msgid "Campaigns"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:92
+msgctxt "Donation type slug - resave permalinks after changing this"
+msgid "donation-campaign"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:133
+#: templates/donation-dashboard.php:6
+msgid "Donation"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:134
+#: includes/class-wpdonations-taxonomies.php:38
+msgid "Donations"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:137
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "donations"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:143
+msgctxt "Donation permalink - resave permalinks after changing this"
+msgid "donation"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:156
+msgid "Add New"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:157
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:160
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:161
+#: includes/class-wpdonations-post-types.php:162
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:164
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:165
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/class-wpdonations-post-types.php:168
+msgid "This is where you can create and manage donations."
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:71
+msgid "Invalid donation ID"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:77
+msgid "This donation is already anonymous"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:83
+#, php-format
+msgid "%s has been marked as anonymous"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:88
+msgid "This donation is already public"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:94
+#, php-format
+msgid "%s has been marked as public"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:101
+#, php-format
+msgid "%s has been deleted"
+msgstr ""
+
+#: includes/class-wpdonations-shortcodes.php:121
+msgid "You need to be signed in to manage your donations."
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:36
+msgid "ID"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:37
+msgid "Name"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:39
+#: includes/class-wpdonations-taxonomies.php:98
+msgid "Target"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:40
+msgid "Raised funds"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:41
+msgid "% Raised"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:155
+#: includes/class-wpdonations-taxonomies.php:177
+msgid "Campaign Target"
+msgstr ""
+
+#: includes/class-wpdonations-taxonomies.php:158
+#: includes/class-wpdonations-taxonomies.php:179
+msgid "Define the campaign target in your currency (ex: 5000)."
+msgstr ""
+
+#: includes/class-wpdonations-widgets.php:139
+msgid "Display a list of the most recent donations on your site."
+msgstr ""
+
+#: includes/class-wpdonations-widgets.php:141
+#: includes/class-wpdonations-widgets.php:145
+msgid "Recent donations"
+msgstr ""
+
+#: includes/class-wpdonations-widgets.php:154
+msgid "Number of donations to show"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-edit-donation.php:39
+msgid "Invalid donation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-edit-donation.php:82
+msgid "Update donation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-edit-donation.php:107
+msgid "Your changes have been saved."
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-edit-donation.php:107
+msgid "View donation &rarr;"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:26
+msgid "Submit Donation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:32
+msgid "Confirmation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:38
+msgid "Done"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:95
+msgid "Donation Amount"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:99
+msgid "Or enter your donation amount, e.g: 50.00"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:103
+msgid "Payment Type"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:104
+msgid "Select the payment method"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:113
+msgid "Select the campaign you would like to contribute to"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:121
+msgid "Donation category"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:129
+msgid "Custom Message"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:136
+#: templates/donation-dashboard.php:9
+msgid "Recurring?"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:137
+msgid "Select the payment interval"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:148
+msgid "Check this box to hide your name in our donors list"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:155
+msgid "Your firstname"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:158
+msgid "Enter your firstname"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:162
+msgid "Your lastname"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:165
+msgid "Enter your lastname"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:169
+msgid "Address"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:172
+msgid "Enter your address"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:177
+msgid "Postcode / Zip"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:180
+msgid "Enter your postcode / Zip"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:184
+msgid "Town / City"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:188
+msgid "Enter the town your living in"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:192
+msgid "Website"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:195
+msgid "http://"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:199
+msgid "Profile Picture"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:301
+#, php-format
+msgid "%s is a required field"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:316
+msgid "Online payment"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:317
+msgid "Offline payment"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:347
+msgid "no specific campaign"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:351
+msgid "Target:"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:362
+msgid "no specific category"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:379
+msgid "recurring: weekly"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:380
+msgid "recurring: monthly"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:381
+msgid "recurring: yearly"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:468
+msgid "Confirm donation &rarr;"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:500
+msgid "You must be signed in to post a new donation."
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:524
+msgid "New Donation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:540
+msgid "Donation #"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:612
+msgid "&larr; Edit donation"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:613
+msgid "Submit Donation &rarr;"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:619
+msgid "Confirm your"
+msgstr ""
+
+#: includes/forms/class-wpdonations-form-submit-donation.php:686
+msgid "Logo needs to be jpg, gif or png."
+msgstr ""
+
+#: templates/account-signin.php:4
+msgid "Your account"
+msgstr ""
+
+#: templates/account-signin.php:8
+#, php-format
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr ""
+
+#: templates/account-signin.php:11
+msgid "Sign out"
+msgstr ""
+
+#: templates/account-signin.php:21
+msgid "Have an account?"
+msgstr ""
+
+#: templates/account-signin.php:23
+msgid "Sign in"
+msgstr ""
+
+#: templates/account-signin.php:27
+#, php-format
+msgid ""
+"If you don&lsquo;t have an account you can %screate one below by entering "
+"your email address. A password will be automatically emailed to you."
+msgstr ""
+
+#: templates/account-signin.php:27
+msgid "optionally"
+msgstr ""
+
+#: templates/account-signin.php:31
+msgid "You must sign in to create a new donation."
+msgstr ""
+
+#: templates/account-signin.php:38
+msgid "Your email"
+msgstr ""
+
+#: templates/account-signin.php:38 templates/donation-submit.php:20
+#: templates/donation-submit.php:42
+msgid "(optional)"
+msgstr ""
+
+#: templates/account-signin.php:40
+msgid "you@yourdomain.com"
+msgstr ""
+
+#: templates/content-donation.php:5
+msgid "By"
+msgstr ""
+
+#: templates/content-donation.php:7
+msgid "Anonymous"
+msgstr ""
+
+#: templates/content-donation.php:19 templates/content-single-donation.php:17
+#: templates/content-summary-donation.php:13
+msgid "ago"
+msgstr ""
+
+#: templates/content-donor_email.php:5
+msgid "Campaign:"
+msgstr ""
+
+#: templates/content-donor_email.php:7
+msgid "Amount:"
+msgstr ""
+
+#: templates/content-donor_email.php:9
+msgid "Recurring donation:"
+msgstr ""
+
+#: templates/content-single-donation.php:17
+msgid "Received"
+msgstr ""
+
+#: templates/content-single-donation.php:26
+msgid "Donor's message"
+msgstr ""
+
+#: templates/content-summary-donation.php:10
+msgid "by"
+msgstr ""
+
+#: templates/donation-dashboard.php:2
+msgid "Your donations are shown in the table below."
+msgstr ""
+
+#: templates/donation-dashboard.php:8
+msgid "Status"
+msgstr ""
+
+#: templates/donation-dashboard.php:10
+msgid "Anonymous?"
+msgstr ""
+
+#: templates/donation-dashboard.php:16
+msgid "You do not have any validated donations."
+msgstr ""
+
+#: templates/donation-dashboard.php:32
+msgid "Mark public"
+msgstr ""
+
+#: templates/donation-dashboard.php:34
+msgid "Mark anonymous"
+msgstr ""
+
+#: templates/donation-submit.php:14
+msgid "Donation & payment details"
+msgstr ""
+
+#: templates/donation-submit.php:30
+msgid "Donor details"
+msgstr ""
+
+#: templates/donation-submitted.php:4
+#, php-format
+msgid ""
+"Donation validated successfully. To view your donation <a href=\"%s\">click "
+"here</a>."
+msgstr ""
+
+#: templates/donation-submitted.php:7
+msgid ""
+"Donation submitted successfully. Your donation will be taken into account "
+"once as soon as we receive the payment gateway validation (it can take "
+"several minutes)."
+msgstr ""
+
+#: templates/donation-submitted.php:10
+msgid ""
+"Donation submitted successfully. Your donation will be taken into account "
+"once payment is received. You choose an offline payment method, so please "
+"follow the guide below to send us your payment."
+msgstr ""
+
+#: templates/form-fields/file-field.php:3
+msgid "or"
+msgstr ""
+
+#: templates/form-fields/file-field.php:10
+#, php-format
+msgid "Max. file size: %s. Allowed images: jpg, gif, png."
+msgstr ""
+
+#: wpdonations-functions.php:158
+msgid "Your email address isn&#8217;t correct."
+msgstr ""
+
+#: wpdonations-functions.php:161
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: wpdonations-template.php:224
+msgid "Validated"
+msgstr ""
+
+#: wpdonations-template.php:226
+msgid "Pending"
+msgstr ""
+
+#: wpdonations-template.php:448
+msgid "None"
+msgstr ""
+
+#: wpdonations.php:84
+msgid "Documentation"
+msgstr ""
+
+#: wpdonations.php:105
+msgid "Are you sure you want to delete this donation?"
+msgstr ""
+
+#: wpdonations.php:126
+#, php-format
+msgid ""
+"%sWPdonations is almost ready.%s To get started, %sconfigure your settings%s."
+msgstr ""

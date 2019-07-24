@@ -1,0 +1,57 @@
+/*!******************************************************************************
+ * Copyright (c) 2017, WP Popup Maker
+ ******************************************************************************/
+
+<<<<<<< HEAD
+$wpblue: #20252b;
+
+.popmake-support-links {
+  list-style: none;
+
+=======
+.popmake-support-links {
+  list-style: none;
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+<<<<<<< HEAD
+    color: $wpblue;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+=======
+    color: #20252b;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+    span {
+      margin-left: 10px;
+    }
+
+    img {
+<<<<<<< HEAD
+      max-height: 24px;
+      max-width: 24px;
+      min-height: 24px;
+      min-width: 24px;
+      position: relative;
+      top: 6px;
+    }
+  }
+=======
+      top: 6px;
+      position: relative;
+      min-width: 24px;
+      max-width: 24px;
+      min-height: 24px;
+      max-height: 24px;
+    }
+  }
+
+>>>>>>> fb4f61eb64cfee2e2fbc0b1d7acd4491a9e6a9bd
+}

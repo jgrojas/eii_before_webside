@@ -1,0 +1,752 @@
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clear {
+    clear: both;
+}
+.nobr {
+    white-space: nowrap;
+}
+@font-face {
+    font-family: 'Genericons';
+    src: url('../font/genericons-regular-webfont.eot');
+    src: url('../font/genericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/genericons-regular-webfont.woff') format('woff'), url('../font/genericons-regular-webfont.ttf') format('truetype'), url('../font/genericons-regular-webfont.svg#genericonsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.display-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+}
+.wpdonations-message, .wpdonations-error, .wpdonations-info {
+    padding: 1em 1em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background: -webkit-linear-gradient(#fff, #fff);
+    background: -moz-linear-gradient(center top, #fff 0, #fff 100%);
+    background: -moz-gradient(center top, #fff 0, #fff 100%);
+    color: #666;
+    text-shadow: 0 1px 0 #fff;
+    list-style: none outside;
+    zoom: 1;
+    width: auto;
+    -webkit-box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.wpdonations-message:before, .wpdonations-error:before, .wpdonations-info:before, .wpdonations-message:after, .wpdonations-error:after, .wpdonations-info:after {
+    content: "";
+    display: table;
+}
+.wpdonations-message:after, .wpdonations-error:after, .wpdonations-info:after {
+    clear: both;
+}
+.wpdonations-message:before, .wpdonations-error:before, .wpdonations-info:before {
+    content: "";
+    height: 1.5em;
+    width: 1.5em;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    padding-top: 1em;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.wpdonations-message li, .wpdonations-error li, .wpdonations-info li {
+    list-style: none outside;
+    padding-left: 0;
+    margin-left: 0;
+}
+.wpdonations-message.wpdonations-message, .wpdonations-error.wpdonations-message, .wpdonations-info.wpdonations-message {
+    border-top: 3px solid #8fae1b;
+}
+.wpdonations-message.wpdonations-message:before, .wpdonations-error.wpdonations-message:before, .wpdonations-info.wpdonations-message:before {
+    background-color: #8fae1b;
+    content: "\2713"}
+.wpdonations-message.wpdonations-info, .wpdonations-error.wpdonations-info, .wpdonations-info.wpdonations-info {
+    border-top: 3px solid #1e85be;
+}
+.wpdonations-message.wpdonations-info:before, .wpdonations-error.wpdonations-info:before, .wpdonations-info.wpdonations-info:before {
+    background-color: #1e85be;
+    content: "i";
+    font-family: Times, Georgia, serif;
+    font-style: italic;
+}
+.wpdonations-message.wpdonations-error, .wpdonations-error.wpdonations-error, .wpdonations-info.wpdonations-error {
+    border-top: 3px solid #b81c23;
+}
+.wpdonations-message.wpdonations-error:before, .wpdonations-error.wpdonations-error:before, .wpdonations-info.wpdonations-error:before {
+    background-color: #b81c23;
+    content: "\00d7";
+    font-weight: 700;
+}
+.wpdonations-form fieldset {
+    margin: 0 0 1em 0;
+    padding: 0 0 1em 0;
+    line-height: 2em;
+    border: 0;
+    overflow: hidden;
+}
+.wpdonations-form fieldset label {
+    display: block;
+    margin: 0;
+    width: 29%;
+    float: left;
+    vertical-align: middle;
+}
+.wpdonations-form fieldset label small {
+    opacity: .75;
+    font-size: .83em;
+}
+.wpdonations-form fieldset div.field {
+    width: 70%;
+    float: right;
+    vertical-align: middle;
+}
+.wpdonations-form fieldset .account-sign-in .button {
+    margin-right: .5em;
+}
+.wpdonations-form fieldset .account-sign-in .button:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f304';
+}
+.wpdonations-form fieldset abbr.required {
+    color: red;
+    font-weight: bold;
+    border: 0;
+}
+.wpdonations-form fieldset input.input-text, .wpdonations-form fieldset textarea, .wpdonations-form fieldset select {
+    margin: 0;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpdonations-form fieldset small.description {
+    opacity: .75;
+    font-size: .83em;
+    margin: 1.2em 0 0 0;
+    display: block;
+    line-height: 1.2em;
+}
+.wpdonations-form fieldset small.checkbox-description {
+    opacity: .75;
+    font-size: .83em;
+    margin: 1.2em 0 0 0;
+    line-height: 1.2em;
+}
+.wpdonations-form fieldset .uploaded_image {
+    line-height: 64px;
+    font-style: italic;
+    margin: 0 0 1em 0;
+}
+.wpdonations-form fieldset .uploaded_image img {
+    height: 64px;
+    vertical-align: middle;
+    margin: 0 1em 0 0;
+}
+.wpdonations-form .submit-donation {
+    padding: 1em 0;
+}
+div.donations {
+    margin-bottom: 1em;
+}
+ul.donations {
+    padding: 0;
+    margin: 0!important;
+    border-top: 1px solid #eee;
+}
+
+ul.donations li.donation, ul.donations li.no_donations_found {
+    list-style: none outside;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+ul.donations li.donation.no_donations_found, ul.donations li.no_donations_found.no_donations_found {
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+}
+ul.donations li.donation a, ul.donations li.no_donations_found a {
+    display: block;
+    padding: 1em 1em 1em 2em;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    line-height: 3em;
+    font-size: 1em;
+    text-decoration: none;
+}
+ul.donations li.donation a:hover, ul.donations li.no_donations_found a:hover, ul.donations li.donation a:focus, ul.donations li.no_donations_found a:focus {
+    background-color: #fcfcfc;
+}
+ul.donations li.donation a img, ul.donations li.no_donations_found a img {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 1em;
+    float: left;
+    margin-right: 1em;
+    vertical-align: middle;
+    box-shadow: none;
+}
+ul.donations li.donation a div.donation, ul.donations li.no_donations_found a div.donation, ul.donations li.donation a div.amount, ul.donations li.no_donations_found a div.amount, ul.donations li.donation a ul.meta, ul.donations li.no_donations_found a ul.meta {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.donations li.donation a div.donation, ul.donations li.no_donations_found a div.donation {
+    float: left;
+    width: 60%;
+    padding: 0 0 0 42px;
+    line-height: 1.5em;
+}
+.widget_recent_donations ul.donations li.donation {
+	border-bottom: none;
+}
+.widget_recent_donations ul.donations li.donation a div.donation {
+	width: 100%;
+}
+.widget_recent_donations ul.donations li.donation a div.donation, .widget_recent_donations ul.donations li.no_donations_found a div.donation {
+    padding: 0;
+}
+ul.donations li.donation a div.donation h3, ul.donations li.no_donations_found a div.donation h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+ul.donations li.donation a div.donation .donor, ul.donations li.no_donations_found a div.donation .donor {
+    color: #999;
+    font-size: .75em;
+}
+ul.donations li.donation a div.donation .donor .tagline, ul.donations li.no_donations_found a div.donation .donor .tagline {
+    margin-left: .5em;
+}
+ul.donations li.donation a div.amount, ul.donations li.no_donations_found a div.amount {
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 0 0 0 1em;
+    color: #999;
+    font-size: 1.15em;
+}
+ul.donations ul.meta {
+	margin-top: 10px !important;
+}
+ul.donations li.donation a .meta, ul.donations li.no_donations_found a .meta {
+    float: right;
+    text-align: right;
+    width: 20%;
+    padding: 0 0 0 1em;
+    margin: 0;
+    line-height: 1.5em;
+    color: #999;
+    list-style: none outside;
+    font-size: 1.15em;
+}
+ul.donations li.donation a .meta li, ul.donations li.no_donations_found a .meta li {
+    list-style: none outside;
+    display: block;
+    font-size: .75em;
+    margin: 0;
+}
+ul.donations li.donation a .meta .donation-campaign, ul.donations li.no_donations_found a .meta .donation-campaign {
+    font-weight: bold;
+}
+.widget ul.donations li.donation a {
+    padding: 1em 0;
+}
+.widget ul.donations li.donation .position {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+.widget ul.donations li.donation ul.meta {
+    float: none;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.widget ul.donations li.donation ul.meta li {
+    float: none;
+    display: inline;
+    padding: 0;
+    margin: 0 .5em 0 0;
+    font-weight: normal;
+}
+.widget ul.donations li.donation ul.meta li:after {
+    padding: 0 0 0 .5em;
+    content: "\2023"}
+.widget ul.donations li.donation ul.meta li:last-child:after {
+    content: ''}
+.wpdonations .donation-campaign, .donation .donation-campaign, .donation-campaigns .donation-campaign {
+
+}
+.single_donation .donor {
+    position: relative;
+    padding: 1em 1em 1em 0;
+    margin: 0 0 2em;
+    display: block;
+    clear: both;
+    min-height: 42px;
+}
+.single_donation .donor img {
+    width: 42px;
+    height: 42px;
+    left: 1em;
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+    box-shadow: none;
+}
+.single_donation .donor .name {
+    margin: 0;
+    padding: 0 0 0 2em;
+}
+.single_donation .donor .name a {
+}
+.single_donation .donor .address {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 2em;
+    font-style: italic;
+    color: #999;
+}
+.single_donation .donor .website:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f107'}
+.single_donation .donor .donor_twitter:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f202'}
+.single_donation .meta {
+    list-style: none outside;
+    padding: 0;
+    margin: 0 0 1.5em;
+    overflow: hidden;
+    zoom: 1;
+}
+.single_donation .meta li {
+    margin: 0 1em 0 0;
+    padding: .5em;
+    float: left;
+    line-height: 1em;
+}
+.single_donation .meta .donation-amount:before {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    content: '\f302';
+}
+.single_donation .meta .donation-amount {
+    color: #000;
+}
+.single_donation .meta .donation-campaign:before {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    content: '\f443';
+}
+.single_donation .meta .donation-campaign {
+    color: #000;
+}
+.single_donation .meta .donation-anonymous {
+    color: #b81c23;
+}
+.single_donation .meta .amount:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f417'}
+.single_donation .meta .date-posted:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f303'}
+.single_donation .meta .donation-recurrence:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f305'}
+.single_donation .meta .donation-anonymous:before {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Genericons';
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    font-size: 16px;
+    margin: 0 2px 0 0;
+    *overflow: auto;
+    *zoom: 1;
+    *display: inline;
+    content: '\f424';
+}
+
+
+.donation_preview {
+}
+.donation_preview_title, .entry-content .donation_preview_title {
+    padding: .5em 1em;
+    margin-bottom: 0;
+    vertical-align: middle;
+    position: relative;
+    background: #eee;
+}
+.donation_preview_title .button, .entry-content .donation_preview_title .button {
+    float: right;
+}
+.donation_summary_shortcode {
+    border: 1px solid #ccc;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.donation_summary_shortcode.aligncenter {
+    display: block;
+    margin: 2em auto 2em;
+}
+.donation_summary_shortcode.alignleft {
+    float: left;
+    margin: 0 2em 2em 0;
+}
+.donation_summary_shortcode.alignright {
+    float: right;
+    margin: 0 0 2em 2em;
+}
+.donation_summary_shortcode a {
+    text-decoration: none;
+    color: inherit;
+}
+.donation_summary_shortcode img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+.donation_summary_shortcode .donation_summary_content {
+    padding: 0 1em;
+}
+.donation_summary_shortcode .meta {
+    font-style: italic;
+    color: #777;
+}
+.donation_summary_shortcode .donation-campaign {
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .5em;
+    height: 1em;
+    width: auto;
+    min-width: 1em;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1em;
+    margin: -0.5em -0.5em 0 0;
+}
+#wpdonations-donation-dashboard table ul.donation-dashboard-actions {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    font-size: .92em;
+}
+#wpdonations-donation-dashboard table ul.donation-dashboard-actions li {
+    float: none;
+    display: inline;
+    padding: 0;
+    margin: 0 .5em 0 0;
+    font-weight: normal;
+    list-style: none outside;
+}
+#wpdonations-donation-dashboard table ul.donation-dashboard-actions li:after {
+    padding: 0 0 0 .5em;
+    content: "\2023"}
+#wpdonations-donation-dashboard table ul.donation-dashboard-actions li:last-child:after {
+    content: '';
+}
+#wpdonations-donation-dashboard table ul.donation-dashboard-actions li .donation-dashboard-action-delete {
+    color: red;
+}
+#wpdonations-donation-dashboard table tr:hover ul.donation-dashboard-actions, #wpdonations-donation-dashboard table tr:focus ul.donation-dashboard-actions {
+    visibility: visible;
+}
+#wpdonations-donation-dashboard table .filled {
+    text-align: center;
+}
+nav.wpdonations-pagination,#content nav.wpdonations-pagination{
+	text-align:center;
+	margin-top: 15px;
+}
+nav.wpdonations-pagination ul,#content nav.wpdonations-pagination ul{
+	display:inline-block;
+	white-space:nowrap;
+	padding:0;
+	clear:both;
+	border:1px solid #eee;
+	border-right:0;
+	margin:1px;
+}nav.wpdonations-pagination ul li,#content nav.wpdonations-pagination ul li{
+	border-right:1px solid #eee;
+	padding:0;
+	margin:0;
+	float:left;
+	display:inline;
+	overflow:hidden;
+}
+nav.wpdonations-pagination ul li a,#content nav.wpdonations-pagination ul li a,nav.wpdonations-pagination ul li span,#content nav.wpdonations-pagination ul li span{
+	margin:0;
+	text-decoration:none;
+	padding:0;
+	line-height:1em;
+	font-size:1em;
+	font-weight:normal;
+	padding:.5em;
+	min-width:1em;
+	display:block;
+}nav.wpdonations-pagination ul li span.current,#content nav.wpdonations-pagination ul li span.current,nav.wpdonations-pagination ul li a:hover,#content nav.wpdonations-pagination ul li a:hover,nav.wpdonations-pagination ul li a:focus,#content nav.wpdonations-pagination ul li a:focus{
+	background:#eee;
+	color:#888;
+}
+
+
+/* Progress Bar */
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-moz-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-ms-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 40px 0;
+  }
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+.progress {
+  height: 18px;
+  margin-bottom: 18px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+
+  background-repeat: repeat-x;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f9f9f9', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress .bar {
+  width: 0;
+  height: 18px;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #56b48f;
+
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#149bdf', endColorstr='#0480be', GradientType=0);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: width 0.6s ease;
+     -moz-transition: width 0.6s ease;
+      -ms-transition: width 0.6s ease;
+       -o-transition: width 0.6s ease;
+          transition: width 0.6s ease;
+}
+
+.progress.striped .bar {
+  background-color: #56b48f;
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+
+.progress.striped.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+     -moz-animation: progress-bar-stripes 2s linear infinite;
+      -ms-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}

@@ -1,0 +1,36 @@
+.wpdonations-message{
+	position:relative;
+	border-left-color:#cc99c2!important;
+	overflow:hidden;
+}
+.wpdonations-message a.button-primary,p.wpdonations-actions a.button-primary{
+	background:#cc99c2;
+	border-color:#b366a4;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	color:#fff;
+	text-decoration:none;
+}
+.wpdonations-message a.button-primary:hover,p.wpdonations-actions a.button-primary:hover{
+	background:#bb77ae;
+	border-color:#aa559a;
+	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 0 rgba(0,0,0,.15)
+}
+.wpdonations-message a.button-primary:active,p.wpdonations-actions a.button-primary:active{
+	background:#aa559a;
+	border-color:#aa559a;
+}
+.wpdonations-message a.docs,.wpdonations-message a.skip,p.wpdonations-actions a.docs,p.wpdonations-actions a.skip{
+	opacity:.7;
+}
+.wpdonations-message .twitter-share-button,p.wpdonations-actions .twitter-share-button{
+	vertical-align:middle;
+	margin-left:3px;
+}
+p.wpdonations-actions{
+	margin-bottom:2em;
+}
+.wpdonations-about-text{
+	margin-bottom:1em!important;
+}
